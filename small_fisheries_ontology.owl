@@ -1,0 +1,1618 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/worldfish/ontologies/SSFO.owl#"
+     xml:base="http://www.semanticweb.org/worldfish/ontologies/SSFO.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:cito="http://purl.org/spar/cito/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marie-angeliquelaporte/ontologies/2021/1/untitled-ontology-278">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002086">
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">small scale fisheries ontology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002196"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">freshwater fishes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002089"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">cyprinids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002090"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">carps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002090"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">barbels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002089"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">cichlids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002093"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">tilapias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">diadromous fishes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002095"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">sturgeons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002095"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">paddlefishes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002095"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">river eels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002095"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">salmons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002095"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">trouts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002095"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">smelts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002095"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">shads</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">marine fishes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">flounders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">halibuts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">soles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">cods</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">hakes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">haddocks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">coastal fishes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">demersal fishes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">herrings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">sardines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">anchovies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">tunas</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">bonitos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">billfishes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">pelagic fishes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">sharks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">rays</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002103"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">chimaeras</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">crustaceans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002123">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002122"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">freshwater crustaceans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002122"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">crabs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002122"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">sea-spiders</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002122"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">lobsters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002122"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">spiny-rock lobsters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002122"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">king crabs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002122"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">squat-lobsters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002122"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">shrimps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002122"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">prawns</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002122"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">krill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002122"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">planktonic crustaceans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">molluscs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">freshwater molluscs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">abalones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">winkles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">conchs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">oysters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">mussels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">scallops</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">pectens</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">clams</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">cockles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">arkshells</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">squids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">cuttlefishes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002134"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">octopuses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">aquatic mammals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">whales</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002150"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">blue-whales</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002150"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fin-whales</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002150"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">sperm-whales</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002150"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">pilot-whales</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">seals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002155"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">eared seals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002155"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">hair seals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002155"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">walruses</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">amphibians</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002160">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002159"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">frogs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">turtles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">crocodiles</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">alligators</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">tunicates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002165">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002164"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">sea-squirts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">arachnoids</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002166"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">horseshoe crabs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">echinoderms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002168"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">sea-urchins</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002170">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">aquatic invertebrates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002171">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">aquatic animal products</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002171"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">pearls</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002173">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002172"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">mother-of-pearl</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002172"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">shells</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002171"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">corals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002171"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">sponges</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">aquatic plants</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002177"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">brown seaweeds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002177"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">red seaweeds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002177"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">green seaweeds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002087"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">marine water body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002181"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">coral reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002181"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">demersal deep water​</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002181"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">pelagic zone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002181"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002186"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">mangrove</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002087"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fresh water body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002186"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">lake</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002188 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002188">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002186"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">river</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002186"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">field rice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002190 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002190">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002186"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">irrigation channel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002087"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">brackish water body</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002191"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">saltmarsh</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002191"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">estuary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002191"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">seagrass flat​</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water body qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002196"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch morphological qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002196"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">market related qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002198"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">marketable catch number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002198"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch price</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002198"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002203"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch grade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002196"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch processing qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002205"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">on-board processing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002198"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch preservation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water pH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">agricultural process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002239"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002087"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002213"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch harvesting process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002214"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fisher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">household member</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">household member qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002215"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">household member weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002215"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">household member vitamin deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">small scale fishery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002214"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">household</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">gear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">boat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002221"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">unmotorized boat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002221"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">motorized boat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002222"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">canoe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002222"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">paddle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">boat tracker vms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002222"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">sail boat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002228">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">gear qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002228"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">gear length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002228"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">boat weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002228"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">boat hull material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fishing net</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002214"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">agricultural household survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002215"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fisher role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002234"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">boat owner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002234"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">catch share</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002234"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">employed fisher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water dissolved oxygen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002211"/>
+        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">piscicultural process</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
