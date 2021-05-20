@@ -31,9 +31,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002000">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish ontology</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SSFO_00002086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">small scale fisheries ontology</rdfs:label>
     </owl:Class>
