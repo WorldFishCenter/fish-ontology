@@ -31,6 +31,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002232"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">gill</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SSFO_00002000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002000">
