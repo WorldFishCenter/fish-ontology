@@ -40,6 +40,127 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002232"/>
+        <obo:IAO_0000115>a net that ....</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">seine net</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">line</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002003"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">hand line</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002006"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">number of hook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002228"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">line qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fishing platform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002214"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002008"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">man</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">agricultural process qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002010"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">trip length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">value chain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">site</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SSFO_00002086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002086">
@@ -1542,6 +1663,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">net</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">fishing net</rdfs:label>
     </owl:Class>
     
