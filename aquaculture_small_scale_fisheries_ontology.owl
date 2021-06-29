@@ -101,12 +101,382 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SSFO_00000002 -->
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000003 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000002">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002003"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">longline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">manual collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">speargun</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002232"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
-        <rdfs:label xml:lang="en">gill</rdfs:label>
+        <rdfs:label xml:lang="en">gill net</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002232"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">cast net</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">consumer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">trader</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">processor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">local market</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">wholesaler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">export</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002011"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">trip start</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002011"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">trip end</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002010"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">effort</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000021"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">number of fishers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002010"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">habitat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000023"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">artifical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000024"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">FAD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000023"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">natural</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000026"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">shore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000026"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">mangrove</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000026"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">reef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">landing site</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">aldeia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">village</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">administrative post</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">municipality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">taxa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000036"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000036"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">total length (bins)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000036"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">price</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000036"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000040"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">craft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000040"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000040"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">sale</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000043"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">local</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000043"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <rdfs:label xml:lang="en">export</rdfs:label>
     </owl:Class>
     
 
