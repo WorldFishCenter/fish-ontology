@@ -23,6 +23,76 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -47,6 +117,136 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002232"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
         <rdfs:label xml:lang="en">drift net</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002223"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">motoring method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002223"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">engine make</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">inbord</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">outboard</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">long-tailed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001005"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">custom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001005"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">brand (KKX, Yamaha, Honda, Suzuki)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002007"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">shore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002007"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">watercraft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001013"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">tracker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001014"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">status</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001014"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">tracker ID</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00001017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001014"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <rdfs:label xml:lang="en">IMEI</rdfs:label>
     </owl:Class>
     
 
