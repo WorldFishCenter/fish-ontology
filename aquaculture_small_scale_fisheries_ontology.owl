@@ -301,16 +301,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SSFO_00000028 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000026"/>
-        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
-        <rdfs:label xml:lang="en">mangrove</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SSFO_00000029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000029">
@@ -1756,6 +1746,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002185 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000026"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002181"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002186"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
