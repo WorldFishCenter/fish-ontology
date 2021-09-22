@@ -157,6 +157,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53568"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">consumer</rdfs:label>
     </owl:Class>
@@ -176,10 +177,17 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002235"/>
+        <obo:IAO_0000115>A person, enterprise, or entity that prepares products for marketing or distribution.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">processor</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000014"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A person, enterprise, or entity that prepares products for marketing or distribution.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92651"/>
+    </owl:Axiom>
     
 
 
@@ -459,9 +467,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002016"/>
+        <obo:IAO_0000115>A means, manner of procedure, or systematic course of actions that have to be performed in order to accomplish a particular goal.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
         <rdfs:label xml:lang="en">motoring method</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A means, manner of procedure, or systematic course of actions that have to be performed in order to accomplish a particular goal.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71460"/>
+    </owl:Axiom>
     
 
 
@@ -479,8 +494,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001004"/>
+        <obo:IAO_0000115 rdf:resource="http://snomed.info/id/46880008"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
-        <rdfs:label xml:lang="en">inbord</rdfs:label>
+        <rdfs:label xml:lang="en">inboard</rdfs:label>
     </owl:Class>
     
 
@@ -489,6 +505,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001004"/>
+        <obo:IAO_0000115 rdf:resource="http://snomed.info/id/61119009"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
         <rdfs:label xml:lang="en">outboard</rdfs:label>
     </owl:Class>
@@ -509,9 +526,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00001009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001005"/>
+        <obo:IAO_0000115>To make according to individual requirements or specifications; to make more personalized or tailored for a specific need</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
         <rdfs:label xml:lang="en">custom</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00001009"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>To make according to individual requirements or specifications; to make more personalized or tailored for a specific need</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65167"/>
+    </owl:Axiom>
     
 
 
@@ -661,9 +685,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002214"/>
+        <obo:IAO_0000115>A person is an object that has certain capacities or attributes constituting personhood.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">person</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002008"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A person is an object that has certain capacities or attributes constituting personhood.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://semanticscience.org/resource/SIO_000498"/>
+    </owl:Axiom>
     
 
 
@@ -671,9 +702,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002008"/>
+        <obo:IAO_0000115>A person whose identity is male, based on societal and cultural conceptualizations of being male, usually (but not always) reflected by specific anatomical variations, chromosome combinations, and/or sex hormones.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">man</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002009"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A person whose identity is male, based on societal and cultural conceptualizations of being male, usually (but not always) reflected by specific anatomical variations, chromosome combinations, and/or sex hormones.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/GSSO_000370 "/>
+    </owl:Axiom>
     
 
 
@@ -779,7 +817,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
-        <rdfs:label xml:lang="fr">Sodium casein</rdfs:label>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84151"/>
+        <rdfs:label>Sodium Casein</rdfs:label>
     </owl:Class>
     
 
@@ -788,6 +827,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/MICRO_0001366"/>
         <rdfs:label xml:lang="fr">Casein hydrolysate</rdfs:label>
     </owl:Class>
     
@@ -797,8 +837,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>The edible oil extracted from peanuts. Peanut oil is used primarily as a cooking oil and as a food ingredient.</obo:IAO_0000115>
         <rdfs:label xml:lang="fr">Peanut oil</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002022"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The edible oil extracted from peanuts. Peanut oil is used primarily as a cooking oil and as a food ingredient.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66332"/>
+    </owl:Axiom>
     
 
 
@@ -806,8 +853,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>The oil extracted from various species of Gadus. Cod liver oil contains high levels of omega-3 fatty acids, eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA), and vitamins A and D. It is used as a dietary supplement.</obo:IAO_0000115>
         <rdfs:label xml:lang="fr">Cod liver oil</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The oil extracted from various species of Gadus. Cod liver oil contains high levels of omega-3 fatty acids, eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA), and vitamins A and D. It is used as a dietary supplement.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C65348"/>
+    </owl:Axiom>
     
 
 
@@ -815,8 +869,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>A glycerophosphocholine that is glycero-3-phosphocholine bearing two acyl substituents at positions 1 and 2.</obo:IAO_0000115>
         <rdfs:label xml:lang="fr">Phosphatidylcholine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002024"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A glycerophosphocholine that is glycero-3-phosphocholine bearing two acyl substituents at positions 1 and 2.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64482"/>
+    </owl:Axiom>
     
 
 
@@ -824,8 +885,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>A quaternary ammonium salt with choline cation and chloride anion.</obo:IAO_0000115>
         <rdfs:label xml:lang="fr">Choline chloride (50%)</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002025"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A quaternary ammonium salt with choline cation and chloride anion.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_133341"/>
+    </owl:Axiom>
     
 
 
@@ -833,6 +901,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28675"/>
         <rdfs:label xml:lang="fr">Dextrin</rdfs:label>
     </owl:Class>
     
@@ -860,8 +929,15 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>An organic heterobicyclic compound that consists of 2-oxohexahydro-1H-thieno[3,4-d]imidazole having a valeric acid substituent attached to the tetrahydrothiophene ring. The parent of the class of biotins.</obo:IAO_0000115>
         <rdfs:label xml:lang="fr">Biotin</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002029"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An organic heterobicyclic compound that consists of 2-oxohexahydro-1H-thieno[3,4-d]imidazole having a valeric acid substituent attached to the tetrahydrothiophene ring. The parent of the class of biotins.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_15956"/>
+    </owl:Axiom>
     
 
 
@@ -2704,9 +2780,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002214">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <obo:IAO_0000115>An individual who is considered part of the social unit comprising one or more individuals living together (all of whom need not be related) in the same dwelling, who aggregate and share their incomes.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">household member</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002214"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An individual who is considered part of the social unit comprising one or more individuals living together (all of whom need not be related) in the same dwelling, who aggregate and share their incomes.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C132449"/>
+    </owl:Axiom>
     
 
 
@@ -2744,6 +2827,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <obo:IAO_0000115 rdf:resource="http://aims.fao.org/aos/agrovoc/c_331367"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">small scale fishery</rdfs:label>
     </owl:Class>
@@ -2760,9 +2844,16 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002214"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115>A social unit comprised of one or more individuals living together (all of whom need not be related) in the same dwelling, who aggregate and share their incomes.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">household</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002219"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A social unit comprised of one or more individuals living together (all of whom need not be related) in the same dwelling, who aggregate and share their incomes.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C41194"/>
+    </owl:Axiom>
     
 
 
