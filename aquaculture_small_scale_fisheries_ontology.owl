@@ -161,6 +161,12 @@
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">consumer</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000012"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53568"/>
+        <obo:IAO_0000115>A person who uses goods or services</obo:IAO_0000115>
+    </owl:Axiom>
     
 
 
@@ -710,7 +716,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002009"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A person whose identity is male, based on societal and cultural conceptualizations of being male, usually (but not always) reflected by specific anatomical variations, chromosome combinations, and/or sex hormones.</owl:annotatedTarget>
-        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/GSSO_000370 "/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/GSSO_000370%20"/>
     </owl:Axiom>
     
 
@@ -954,6 +960,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002030"/>
+        <obo:IAO_0000115 rdf:resource="http://www.cropontology.org/rdf/CO_360:0000004"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Dry matter content</rdfs:label>
     </owl:Class>
@@ -964,9 +971,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002030"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/TO_0000607"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Ash content</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002037"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/TO_0000607"/>
+        <obo:IAO_0000115>The total mineral or ion content measured after drying and burning the plant or a plant part.</obo:IAO_0000115>
+    </owl:Axiom>
     
 
 
@@ -974,9 +988,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002030"/>
+        <obo:IAO_0000115>Crude protein content of aboveground biomass.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Crude protein content</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002038"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Crude protein content of aboveground biomass.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://www.cropontology.org/rdf/CO_345:0000016"/>
+    </owl:Axiom>
     
 
 
@@ -1099,9 +1120,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>Oil extracted from the hard outer brown layer of rice called chaff (rice husk).</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Rice bran</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Oil extracted from the hard outer brown layer of rice called chaff (rice husk).</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="Oil extracted from the hard outer brown layer of rice called chaff (rice husk)."/>
+    </owl:Axiom>
     
 
 
@@ -1129,9 +1157,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>An animal manure obtained by drying and grinding or otherwise treating fish or fish waste to which no other matter has been added.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Fish meal</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002053"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An animal manure obtained by drying and grinding or otherwise treating fish or fish waste to which no other matter has been added.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/AGRO_00000083"/>
+    </owl:Axiom>
     
 
 
@@ -1139,9 +1174,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>Extract, concentrate or isolate high in gluten, the predominant protein of wheat or corn.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Gluten</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002054"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Extract, concentrate or isolate high in gluten, the predominant protein of wheat or corn.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420177"/>
+    </owl:Axiom>
     
 
 
@@ -1149,6 +1191,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302757"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Soybean meal</rdfs:label>
     </owl:Class>
@@ -1159,6 +1202,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C72066"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Corn</rdfs:label>
     </owl:Class>
@@ -1169,6 +1213,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03304608"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Wheat bran</rdfs:label>
     </owl:Class>
@@ -1179,9 +1224,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>Vegetable oil developed from rapeseed plant.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Canola oil</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002058"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Vegetable oil developed from rapeseed plant.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C1036"/>
+    </owl:Axiom>
     
 
 
@@ -1189,9 +1241,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002059">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>An oil derived from the tissues of oily fish. Fish oil is considered valuable due to its high content of omega-3 fatty acids eicosapentanoic acid and docosahexaenoic acid. Such fatty acids are not actually produced in fish, but are accumulated from phytoplankton which produce omega-3 fatty acids.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Fish oil</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002059"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An oil derived from the tissues of oily fish. Fish oil is considered valuable due to its high content of omega-3 fatty acids eicosapentanoic acid and docosahexaenoic acid. Such fatty acids are not actually produced in fish, but are accumulated from phytoplankton which produce omega-3 fatty acids.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C497"/>
+    </owl:Axiom>
     
 
 
@@ -1199,6 +1258,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115 rdf:resource="http://snomed.info/id/710206002"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Lecithin – Soy</rdfs:label>
     </owl:Class>
@@ -1219,9 +1279,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>A nutritional supplement containing the biologically active L-isomer of the essential amino acid lysine, with potential anti-mucositis activity. Upon oral intake, L-lysine promotes healthy tissue function, growth and healing and improves the immune system. L-Lysine promotes calcium uptake, is essential for carnitine production and collagen formation. As collagen is essential for connective tissue maintenance, this agent may also help heal mucosal wounds. This may help decrease and prevent mucositis induced by radiation or chemotherapy.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">L-Lysine</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002062"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A nutritional supplement containing the biologically active L-isomer of the essential amino acid lysine, with potential anti-mucositis activity. Upon oral intake, L-lysine promotes healthy tissue function, growth and healing and improves the immune system. L-Lysine promotes calcium uptake, is essential for carnitine production and collagen formation. As collagen is essential for connective tissue maintenance, this agent may also help heal mucosal wounds. This may help decrease and prevent mucositis induced by radiation or chemotherapy.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95739"/>
+    </owl:Axiom>
     
 
 
@@ -1229,9 +1296,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
+        <obo:IAO_0000115>Food additive; technological purpose(s): acidity regulator, anticaking agent, dough conditioner, firming agent, flour treatment agent, humectants, moisture-retention agent, raising agent, stabilizer, texturizing agent.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">Dicalcium Phosphate</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002063"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Food additive; technological purpose(s): acidity regulator, anticaking agent, dough conditioner, firming agent, flour treatment agent, humectants, moisture-retention agent, raising agent, stabilizer, texturizing agent.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413076"/>
+    </owl:Axiom>
     
 
 
@@ -1279,6 +1353,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002030"/>
+        <obo:IAO_0000115 rdf:resource="http://opendata.inra.fr/EOL/EOL_0000117"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">crude fiber content</rdfs:label>
     </owl:Class>
@@ -1289,9 +1364,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002030"/>
+        <obo:IAO_0000115>Food content condition in which the amount of carbohydrate in the diet is manipulated.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="fr">carbohydrate content</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Food content condition in which the amount of carbohydrate in the diet is manipulated.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ZECO_0000240"/>
+    </owl:Axiom>
     
 
 
@@ -2480,9 +2562,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002186">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002087"/>
+        <obo:IAO_0000115>A body of water which is primarily composed of freshwater, with low solute content.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">fresh water body</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002186"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A body of water which is primarily composed of freshwater, with low solute content.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001321"/>
+    </owl:Axiom>
     
 
 
@@ -2530,9 +2619,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002087"/>
+        <obo:IAO_0000115>A body of water which is primarily composed of brackish water.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">brackish water body</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002191"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A body of water which is primarily composed of brackish water.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001321"/>
+    </owl:Axiom>
     
 
 
@@ -2550,9 +2646,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002193">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002191"/>
+        <obo:IAO_0000115>A semi-enclosed coastal body of water with one or more rivers or streams flowing into it, and with a free connection to the open sea.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">estuary</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002193"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A semi-enclosed coastal body of water with one or more rivers or streams flowing into it, and with a free connection to the open sea.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000045"/>
+    </owl:Axiom>
     
 
 

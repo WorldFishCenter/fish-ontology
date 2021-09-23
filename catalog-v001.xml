@@ -2,6 +2,6 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl" uri="aquaculture_small_scale_fisheries_ontology.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1632292117244" name="http://www.semanticweb.org/worldfish/ontologies/SSFO.owl" uri="aquaculture_small_scale_fisheries_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1632366708426" name="http://www.semanticweb.org/worldfish/ontologies/SSFO.owl" uri="aquaculture_small_scale_fisheries_ontology.owl"/>
     </group>
 </catalog>
