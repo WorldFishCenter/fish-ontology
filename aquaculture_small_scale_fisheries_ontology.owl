@@ -2233,7 +2233,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0015733"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">whales</rdfs:label>
     </owl:Class>
     
@@ -2324,7 +2325,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0002077"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">amphibians</rdfs:label>
     </owl:Class>
     
@@ -2346,7 +2347,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0015262"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">turtles</rdfs:label>
     </owl:Class>
     
@@ -2378,7 +2380,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_111869"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">tunicates</rdfs:label>
     </owl:Class>
     
@@ -2452,6 +2455,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400656"/>
+        <obo:IAO_0000115 xml:lang="en">Type 08 - Aquatic animal products Aquatic animal products are derived from the edible parts of various aquatic animals, usually wild, harvested for food.</obo:IAO_0000115>
         <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">aquatic animal products</rdfs:label>
     </owl:Class>
@@ -2921,6 +2925,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002211">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001246"/>
+        <obo:IAO_0000115 xml:lang="en">A process during which humans rear animals or plants on land for harvest and consumption</obo:IAO_0000115>
         <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">agricultural process</rdfs:label>
     </owl:Class>
