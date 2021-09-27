@@ -261,9 +261,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002087"/>
+        <obo:IAO_0000115>An environmental system which can sustain and allow the growth of an ecological population.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">habitat</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An environmental system which can sustain and allow the growth of an ecological population.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000739"/>
+    </owl:Axiom>
     
 
 
@@ -291,9 +298,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000023"/>
+        <obo:IAO_0000115>A description for something that exists in or is produced by nature, and is not artificial or man-made.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">natural</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000026"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A description for something that exists in or is produced by nature, and is not artificial or man-made.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85060"/>
+    </owl:Axiom>
     
 
 
@@ -302,6 +316,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000026"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002007"/>
+        <obo:IAO_0000115>That part of the land in immediate contact with a body of water including the area between high and low water lines.</obo:IAO_0000115>
         <obo:IAO_0000115>http://purl.obolibrary.org/obo/ENVO_00000304</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">shore</rdfs:label>
@@ -313,9 +328,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000026"/>
+        <obo:IAO_0000115>A ridge of rocks, lying near the surface of the sea, which may be visible at low tide, but is usually covered by water.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">reef</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000029"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A ridge of rocks, lying near the surface of the sea, which may be visible at low tide, but is usually covered by water.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000130"/>
+    </owl:Axiom>
     
 
 
@@ -2517,9 +2539,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002087"/>
+        <obo:IAO_0000115>A significant accumulation of water which is part of a marine biome.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">marine water body</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002181"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A significant accumulation of water which is part of a marine biome.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00001999"/>
+    </owl:Axiom>
     
 
 
@@ -2527,9 +2556,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002181"/>
+        <obo:IAO_0000115>Aragonite structures produced by living organisms, found in shallow, marine waters with little nutrients in the water.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">coral reef</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002182"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Aragonite structures produced by living organisms, found in shallow, marine waters with little nutrients in the water.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000150"/>
+    </owl:Axiom>
     
 
 
@@ -2547,9 +2583,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002181"/>
+        <obo:IAO_0000115>An open ocean region.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">pelagic zone</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002184"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An open ocean region.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000208"/>
+    </owl:Axiom>
     
 
 
@@ -2586,9 +2629,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002187">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002186"/>
+        <obo:IAO_0000115>A body of water or other liquid of considerable size contained on a body of land.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">lake</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002187"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A body of water or other liquid of considerable size contained on a body of land.</owl:annotatedTarget>
+        <rdfs:comment rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000020"/>
+    </owl:Axiom>
     
 
 
@@ -2596,9 +2646,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002188">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002186"/>
+        <obo:IAO_0000115>Natural freshwater surface streams of considerable volume and a permanent or seasonal flow, moving in a definite channel toward a sea, lake, or another river; any large streams, or ones larger than brooks or creeks, such as the trunk stream and larger branches of a drainage system.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">river</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002188"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Natural freshwater surface streams of considerable volume and a permanent or seasonal flow, moving in a definite channel toward a sea, lake, or another river; any large streams, or ones larger than brooks or creeks, such as the trunk stream and larger branches of a drainage system.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000022"/>
+    </owl:Axiom>
     
 
 
@@ -2606,9 +2663,16 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002189">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002186"/>
+        <obo:IAO_0000115>A paddy field for the cultivation of rice.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">field rice</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002189"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A paddy field for the cultivation of rice.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_00000296"/>
+    </owl:Axiom>
     
 
 
@@ -2820,6 +2884,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002209">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <obo:IAO_0000115 rdf:resource="http://opendata.inra.fr/EOL/EOL_0000034"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">water temperature</rdfs:label>
     </owl:Class>
@@ -2830,6 +2895,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <obo:IAO_0000115 rdf:resource="http://opendata.inra.fr/EOL/EOL_0000015"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">water pH</rdfs:label>
     </owl:Class>
