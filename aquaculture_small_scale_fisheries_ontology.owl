@@ -318,7 +318,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002007"/>
         <obo:IAO_0000115>That part of the land in immediate contact with a body of water including the area between high and low water lines.</obo:IAO_0000115>
         <obo:IAO_0000115>http://purl.obolibrary.org/obo/ENVO_00000304</obo:IAO_0000115>
-        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
+        <dc:creator rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">shore</rdfs:label>
     </owl:Class>
     
@@ -365,6 +365,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48958"/>
+        <obo:IAO_0000115 xml:lang="en">A community of people smaller than a town.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">village</rdfs:label>
     </owl:Class>
@@ -385,6 +387,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80234"/>
+        <obo:IAO_0000115 xml:lang="en">A political unit, such as a city, town, or village, incorporated for local self-government.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">municipality</rdfs:label>
     </owl:Class>
@@ -395,6 +399,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25464"/>
+        <obo:IAO_0000115 xml:lang="en">A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">country</rdfs:label>
     </owl:Class>
@@ -1150,7 +1156,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002050"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Oil extracted from the hard outer brown layer of rice called chaff (rice husk).</owl:annotatedTarget>
-        <obo:IAO_0000115 rdf:resource="Oil extracted from the hard outer brown layer of rice called chaff (rice husk)."/>
+        <obo:IAO_0000115 rdf:resource="http://www.semanticweb.org/worldfish/ontologies/Oil%20extracted%20from%20the%20hard%20outer%20brown%20layer%20of%20rice%20called%20chaff%20(rice%20husk)."/>
     </owl:Axiom>
     
 
@@ -1602,7 +1608,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002196"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">catch</rdfs:label>
     </owl:Class>
     
@@ -1612,7 +1618,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413361"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">freshwater fishes</rdfs:label>
     </owl:Class>
     
@@ -1672,7 +1679,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413360"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">diadromous fishes</rdfs:label>
     </owl:Class>
     
@@ -1752,7 +1760,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002103">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03413362"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">marine fishes</rdfs:label>
     </owl:Class>
     
@@ -1942,7 +1951,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1756923"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">crustaceans</rdfs:label>
     </owl:Class>
     
@@ -2062,7 +2072,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03412112"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">molluscs</rdfs:label>
     </owl:Class>
     
@@ -2222,7 +2233,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0015733"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">whales</rdfs:label>
     </owl:Class>
     
@@ -2312,7 +2324,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002159">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0002077"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">amphibians</rdfs:label>
     </owl:Class>
     
@@ -2322,7 +2335,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002159"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14265"/>
+        <obo:IAO_0000115 xml:lang="en">An amphibian in the order Anura, which includes the toads. The commonest frog genera are Rana (grass frogs) and Hyla (tree frogs).</obo:IAO_0000115>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">frogs</rdfs:label>
     </owl:Class>
     
@@ -2332,7 +2347,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0015262"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">turtles</rdfs:label>
     </owl:Class>
     
@@ -2342,7 +2358,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001909"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">crocodiles</rdfs:label>
     </owl:Class>
     
@@ -2352,7 +2369,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001909"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">alligators</rdfs:label>
     </owl:Class>
     
@@ -2362,7 +2380,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002149"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_111869"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">tunicates</rdfs:label>
     </owl:Class>
     
@@ -2392,7 +2411,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002167">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002166"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007880"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">horseshoe crabs</rdfs:label>
     </owl:Class>
     
@@ -2412,6 +2432,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002168"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03542570"/>
+        <obo:IAO_0000115 xml:lang="en">The group includes Sea-urchins and other echinoderms belonging to the ISSCAAP group 76. The part consumed/analysed is by default unspecified. When relevant, information on the part consumed/analysed has to be reported with additional facet descriptors.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">sea-urchins</rdfs:label>
     </owl:Class>
@@ -2432,7 +2454,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03400656"/>
+        <obo:IAO_0000115 xml:lang="en">Type 08 - Aquatic animal products Aquatic animal products are derived from the edible parts of various aquatic animals, usually wild, harvested for food.</obo:IAO_0000115>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">aquatic animal products</rdfs:label>
     </owl:Class>
     
@@ -2492,7 +2516,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03401160"/>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">aquatic plants</rdfs:label>
     </owl:Class>
     
@@ -2899,7 +2924,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002211">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001246"/>
+        <obo:IAO_0000115 xml:lang="en">A process during which humans rear animals or plants on land for harvest and consumption</obo:IAO_0000115>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">agricultural process</rdfs:label>
     </owl:Class>
     
@@ -3157,7 +3184,9 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002214"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/GSSO_009398"/>
+        <obo:IAO_0000115 xml:lang="en">A kind of survey which explores characteristics in households, such as fertility, family structure, and demographics</obo:IAO_0000115>
+        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">agricultural household survey</rdfs:label>
     </owl:Class>
     
