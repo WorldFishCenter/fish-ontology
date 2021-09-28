@@ -14,9 +14,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:subsets="http://purl.obolibrary.org/obo/ro/subsets#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/marie-angeliquelaporte/ontologies/2021/1/untitled-ontology-278">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/releases/2020-12-18/ro.owl"/>
-    </owl:Ontology>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marie-angeliquelaporte/ontologies/2021/1/untitled-ontology-278"/>
     
 
 
