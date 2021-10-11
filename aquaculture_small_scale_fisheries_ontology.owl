@@ -175,7 +175,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002235"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92651"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">processor</rdfs:label>
@@ -311,19 +311,9 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00000030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002088"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002013"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">landing site</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SSFO_00000031 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
-        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
-        <rdfs:label xml:lang="en">aldeia</rdfs:label>
     </owl:Class>
     
 
@@ -331,7 +321,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00000032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000033"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48958"/>
         <obo:IAO_0000115 xml:lang="en">A community of people smaller than a town.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
@@ -343,7 +333,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00000033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000034"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">administrative post</rdfs:label>
     </owl:Class>
@@ -353,7 +343,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00000034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000035"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C80234"/>
         <obo:IAO_0000115 xml:lang="en">A political unit, such as a city, town, or village, incorporated for local self-government.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
@@ -397,7 +387,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002199"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002249"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">catch total length using bins</rdfs:label>
     </owl:Class>
@@ -643,7 +633,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002006"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002338"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">number of hook</rdfs:label>
     </owl:Class>
@@ -3979,6 +3969,86 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002333"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">genome sequencing)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002228"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">active gear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002228"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">passive gear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002006"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">longline qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002228"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">net qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002339"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">mesh size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002239"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">no catch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">local market</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002345">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">export</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
