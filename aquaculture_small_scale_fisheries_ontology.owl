@@ -226,7 +226,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002215"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002010"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">fishing effort</rdfs:label>
     </owl:Class>
@@ -735,7 +735,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002351"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">watercraft engine</rdfs:label>
     </owl:Class>
@@ -3026,7 +3026,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002222"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">paddle</rdfs:label>
+        <rdfs:label xml:lang="en">paddle board</rdfs:label>
     </owl:Class>
     
 
@@ -4049,6 +4049,77 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002012"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">export</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002346">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002008"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">woman</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002008"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">child</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002351"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">paddle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002351"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">pole</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002351"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">sail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
+        <obo:IAO_0000115 xml:lang="en">a gear used for propulsion of a watercraft</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">propulsion gear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fuel</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
