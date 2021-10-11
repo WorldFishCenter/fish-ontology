@@ -387,7 +387,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002242"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">catch weight</rdfs:label>
     </owl:Class>
@@ -785,7 +785,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
-        <rdfs:label xml:lang="en">Casein (vitamin-free)</rdfs:label>
+        <rdfs:label xml:lang="en">casein (vitamin-free)</rdfs:label>
     </owl:Class>
     
 
@@ -795,7 +795,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84151"/>
-        <rdfs:label>Sodium Casein</rdfs:label>
+        <rdfs:label>sodium casein</rdfs:label>
     </owl:Class>
     
 
@@ -805,7 +805,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/MICRO_0001366"/>
-        <rdfs:label xml:lang="en">Casein hydrolysate</rdfs:label>
+        <rdfs:label xml:lang="en">casein hydrolysate</rdfs:label>
     </owl:Class>
     
 
@@ -815,7 +815,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115>The edible oil extracted from peanuts. Peanut oil is used primarily as a cooking oil and as a food ingredient.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Peanut oil</rdfs:label>
+        <rdfs:label xml:lang="en">peanut oil</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002022"/>
@@ -831,7 +831,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115>The oil extracted from various species of Gadus. Cod liver oil contains high levels of omega-3 fatty acids, eicosapentaenoic acid (EPA) and docosahexaenoic acid (DHA), and vitamins A and D. It is used as a dietary supplement.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Cod liver oil</rdfs:label>
+        <rdfs:label xml:lang="en">cod liver oil</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002023"/>
@@ -847,7 +847,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115>A glycerophosphocholine that is glycero-3-phosphocholine bearing two acyl substituents at positions 1 and 2.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Phosphatidylcholine</rdfs:label>
+        <rdfs:label xml:lang="en">phosphatidylcholine</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002024"/>
@@ -863,7 +863,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115>A quaternary ammonium salt with choline cation and chloride anion.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Choline chloride (50%)</rdfs:label>
+        <rdfs:label xml:lang="en">choline chloride (50%)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002025"/>
@@ -879,7 +879,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28675"/>
-        <rdfs:label xml:lang="en">Dextrin</rdfs:label>
+        <rdfs:label xml:lang="en">dextrin</rdfs:label>
     </owl:Class>
     
 
@@ -888,7 +888,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
-        <rdfs:label xml:lang="en">Mineral mix</rdfs:label>
+        <rdfs:label xml:lang="en">mineral mix</rdfs:label>
     </owl:Class>
     
 
@@ -897,7 +897,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
-        <rdfs:label xml:lang="en">Vitamin mix (biotin free)</rdfs:label>
+        <rdfs:label xml:lang="en">vitamin mix (biotin free)</rdfs:label>
     </owl:Class>
     
 
@@ -907,7 +907,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115>An organic heterobicyclic compound that consists of 2-oxohexahydro-1H-thieno[3,4-d]imidazole having a valeric acid substituent attached to the tetrahydrothiophene ring. The parent of the class of biotins.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Biotin</rdfs:label>
+        <rdfs:label xml:lang="en">biotin</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002029"/>
@@ -921,8 +921,59 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002271"/>
         <rdfs:label xml:lang="en">fish feed ingredients qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002199"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002241"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <oboInOwl:hasExactSynonym>fin overlap</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">overlap of pectorial and pelvic fin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002221"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">gill raker score</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002240"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">head depth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002240"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">head length</rdfs:label>
     </owl:Class>
     
 
@@ -933,7 +984,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002030"/>
         <obo:IAO_0000115 rdf:resource="http://www.cropontology.org/rdf/CO_360:0000004"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Dry matter content</rdfs:label>
+        <rdfs:label xml:lang="en">dry matter content</rdfs:label>
     </owl:Class>
     
 
@@ -944,7 +995,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002030"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/TO_0000607"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Ash content</rdfs:label>
+        <rdfs:label xml:lang="en">ash content</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002037"/>
@@ -961,7 +1012,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002030"/>
         <obo:IAO_0000115>Crude protein content of aboveground biomass.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Crude protein content</rdfs:label>
+        <rdfs:label xml:lang="en">crude protein content</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002038"/>
@@ -977,7 +1028,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002030"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Crude lipid content</rdfs:label>
+        <rdfs:label xml:lang="en">crude lipid content</rdfs:label>
     </owl:Class>
     
 
@@ -987,7 +1038,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002030"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Gross energy</rdfs:label>
+        <rdfs:label xml:lang="en">gross energy</rdfs:label>
     </owl:Class>
     
 
@@ -995,7 +1046,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002256"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym>final mass</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">initial weight</rdfs:label>
@@ -1006,7 +1057,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000037"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002256"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym>initial mass</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">final weight</rdfs:label>
@@ -1017,7 +1068,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002243"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym>PER</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">protein efficiency ratio</rdfs:label>
@@ -1028,10 +1079,10 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002243"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym>FCR</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">Feed conversion ratio</rdfs:label>
+        <rdfs:label xml:lang="en">feed conversion ratio</rdfs:label>
     </owl:Class>
     
 
@@ -1059,7 +1110,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002242"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym>catch abnormal phenotype</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">catch diformity</rdfs:label>
@@ -1072,7 +1123,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Palm kernel cake conventional</rdfs:label>
+        <rdfs:label xml:lang="en">palm kernel cake conventional</rdfs:label>
     </owl:Class>
     
 
@@ -1082,7 +1133,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Palm kernel cake refined</rdfs:label>
+        <rdfs:label xml:lang="en">palm kernel cake refined</rdfs:label>
     </owl:Class>
     
 
@@ -1093,7 +1144,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115>Oil extracted from the hard outer brown layer of rice called chaff (rice husk).</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Rice bran</rdfs:label>
+        <rdfs:label xml:lang="en">rice bran</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002050"/>
@@ -1109,7 +1160,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Maize bran</rdfs:label>
+        <rdfs:label xml:lang="en">maize bran</rdfs:label>
     </owl:Class>
     
 
@@ -1119,7 +1170,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Sago flour</rdfs:label>
+        <rdfs:label xml:lang="en">sago flour</rdfs:label>
     </owl:Class>
     
 
@@ -1130,7 +1181,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115>An animal manure obtained by drying and grinding or otherwise treating fish or fish waste to which no other matter has been added.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Fish meal</rdfs:label>
+        <rdfs:label xml:lang="en">fish meal</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002053"/>
@@ -1147,7 +1198,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115>Extract, concentrate or isolate high in gluten, the predominant protein of wheat or corn.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Gluten</rdfs:label>
+        <rdfs:label xml:lang="en">gluten</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002054"/>
@@ -1164,7 +1215,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03302757"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Soybean meal</rdfs:label>
+        <rdfs:label xml:lang="en">soybean meal</rdfs:label>
     </owl:Class>
     
 
@@ -1175,7 +1226,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C72066"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Corn</rdfs:label>
+        <rdfs:label xml:lang="en">corn</rdfs:label>
     </owl:Class>
     
 
@@ -1186,7 +1237,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/FOODON_03304608"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Wheat bran</rdfs:label>
+        <rdfs:label xml:lang="en">wheat bran</rdfs:label>
     </owl:Class>
     
 
@@ -1197,7 +1248,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115>Vegetable oil developed from rapeseed plant.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Canola oil</rdfs:label>
+        <rdfs:label xml:lang="en">canola oil</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002058"/>
@@ -1214,7 +1265,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115>An oil derived from the tissues of oily fish. Fish oil is considered valuable due to its high content of omega-3 fatty acids eicosapentanoic acid and docosahexaenoic acid. Such fatty acids are not actually produced in fish, but are accumulated from phytoplankton which produce omega-3 fatty acids.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Fish oil</rdfs:label>
+        <rdfs:label xml:lang="en">fish oil</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002059"/>
@@ -1231,7 +1282,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115 rdf:resource="http://snomed.info/id/710206002"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Lecithin – Soy</rdfs:label>
+        <rdfs:label xml:lang="en">lecithin – Soy</rdfs:label>
     </owl:Class>
     
 
@@ -1269,7 +1320,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <obo:IAO_0000115>Food additive; technological purpose(s): acidity regulator, anticaking agent, dough conditioner, firming agent, flour treatment agent, humectants, moisture-retention agent, raising agent, stabilizer, texturizing agent.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Dicalcium Phosphate</rdfs:label>
+        <rdfs:label xml:lang="en">dicalcium Phosphate</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002063"/>
@@ -1285,7 +1336,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Trace mineral premix</rdfs:label>
+        <rdfs:label xml:lang="en">trace mineral premix</rdfs:label>
     </owl:Class>
     
 
@@ -1295,7 +1346,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Stay-C</rdfs:label>
+        <rdfs:label xml:lang="en">stay-C</rdfs:label>
     </owl:Class>
     
 
@@ -1305,7 +1356,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Vitamin premix</rdfs:label>
+        <rdfs:label xml:lang="en">vitamin premix</rdfs:label>
     </owl:Class>
     
 
@@ -1315,7 +1366,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002018"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">Acid insoluble ash</rdfs:label>
+        <rdfs:label xml:lang="en">acid insoluble ash</rdfs:label>
     </owl:Class>
     
 
@@ -1361,7 +1412,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002071 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002071">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002243"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym>TGC</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">thermal-unit growth coefficient</rdfs:label>
@@ -1393,7 +1444,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002074 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002074">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002200"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">fish number</rdfs:label>
     </owl:Class>
@@ -1403,7 +1454,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002075 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002075">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002243"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">dry feed intake</rdfs:label>
     </owl:Class>
@@ -1413,7 +1464,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002076 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002076">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002244"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym>HSI</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">hepatosomatic Index</rdfs:label>
@@ -1424,7 +1475,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002245"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym>GSI</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">gonadosomatic index</rdfs:label>
@@ -1435,7 +1486,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002078">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002244"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">liver wet weight</rdfs:label>
     </owl:Class>
@@ -1445,7 +1496,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002079 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002079">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002245"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">gonad wet weight</rdfs:label>
     </owl:Class>
@@ -1455,7 +1506,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002080 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002080">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002242"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">survival rate</rdfs:label>
     </owl:Class>
@@ -1465,7 +1516,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002081">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002243"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym>LER</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">lipid efficiency ratio</rdfs:label>
@@ -1476,7 +1527,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002243"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym>PPV</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">protein productive value</rdfs:label>
@@ -1487,7 +1538,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002083">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002243"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym>EPV</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">energy productive value</rdfs:label>
@@ -1498,7 +1549,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002243"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">total protein intake</rdfs:label>
     </owl:Class>
@@ -1508,7 +1559,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002243"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">total lipid intake</rdfs:label>
     </owl:Class>
@@ -2690,7 +2741,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002199 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002199">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002242"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">catch size</rdfs:label>
     </owl:Class>
@@ -2940,6 +2991,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002247"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">gill morphological qualities</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/SSFO_00002222 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002222">
@@ -3125,6 +3186,799 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002211"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">piscicultural process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish head qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fin qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">whole fish morphological qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish nutrition qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002247"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish liver qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002247"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish gonad qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002240"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">head width</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">viscera qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002247"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">gut length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002073"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish total length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002073"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish standard lenght</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish health qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002251"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">lernaea count?</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">learnea count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002251"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">red spot score</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002242"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish sex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002199"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish width</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000037"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002256"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">total weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00000037"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">head on gutted weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002257"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">total weight log transform</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002257"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">total weight sqrt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water total ammonia nitrogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water transparency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water alkalinity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water hardness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water carbon dioxide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water hydrogen sulphide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water nitrite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002195"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water turbidity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">aquaculture trial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002239"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish feeding process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish feed qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002271"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish fish amount</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002197"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish egg qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002273"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">egg number</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002211"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">water quality management process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002269"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">disease outbreak investigation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002251"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish daily mortality ​</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002277"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">abnormal fish dauly mortality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002251"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">fish behaviour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002279"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">abnormal fish behavior</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002251"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">clinical sign of diseases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">fish chemical treatment</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">fish treatment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002282"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">antimicrobial</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002283"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">antibiotics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002283"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">probiotics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002283"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">prebiotics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002283"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">disinfectant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">treatment qualities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002288"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">amount of antimicrobial applied</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002295"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">amount of disinfectant applied</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002295"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">amount of prebiotics applied</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002295"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">amount of probiotics applied</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002295"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">amount of antibiotics applied</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002282"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">vaccine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002251"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">AMR</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">antimicrobial resistance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002276"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">disease surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002302"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">active disease surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002302"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">passive disease surveillance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">agronomic experimental design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002316"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">latin square design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002316"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">factorial design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002316"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">demonstration strip design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002316"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">completely randomized design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002316"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">strip plot design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002316"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">split plot design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002316"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">rotation layout</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002316"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">replicated control design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002316"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">randomized complete block design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002316"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">lattice design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">diagnostic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002327"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">parasitology​</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002327"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">virology​</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002327"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">bacteriology​</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002327"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">histopathology​</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002327"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">heamatology​</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002327"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">molecular biology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002333"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">PCR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SSFO_00002335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002333"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
+        <rdfs:label xml:lang="en">genome sequencing)</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
