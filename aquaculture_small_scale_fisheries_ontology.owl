@@ -4058,7 +4058,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002346">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002008"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="fr">woman</rdfs:label>
+        <rdfs:label xml:lang="en">woman</rdfs:label>
     </owl:Class>
     
 
@@ -4068,7 +4068,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002347">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002008"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="fr">child</rdfs:label>
+        <rdfs:label xml:lang="en">child</rdfs:label>
     </owl:Class>
     
 
@@ -4078,7 +4078,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002348">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002351"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="fr">paddle</rdfs:label>
+        <rdfs:label xml:lang="en">paddle</rdfs:label>
     </owl:Class>
     
 
@@ -4088,7 +4088,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002349">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002351"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="fr">pole</rdfs:label>
+        <rdfs:label xml:lang="en">pole</rdfs:label>
     </owl:Class>
     
 
@@ -4098,7 +4098,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002350">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002351"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="fr">sail</rdfs:label>
+        <rdfs:label xml:lang="en">sail</rdfs:label>
     </owl:Class>
     
 
@@ -4109,7 +4109,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
         <obo:IAO_0000115 xml:lang="en">a gear used for propulsion of a watercraft</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="fr">propulsion gear</rdfs:label>
+        <rdfs:label xml:lang="en">propulsion gear</rdfs:label>
     </owl:Class>
     
 
@@ -4119,7 +4119,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002352">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="fr">fuel</rdfs:label>
+        <rdfs:label xml:lang="en">fuel</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
