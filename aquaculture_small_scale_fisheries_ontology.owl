@@ -653,7 +653,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002007">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">fishing platform</rdfs:label>
     </owl:Class>
@@ -685,7 +685,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">agricultural process qualities</rdfs:label>
     </owl:Class>
@@ -705,7 +705,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">value chain</rdfs:label>
     </owl:Class>
@@ -715,7 +715,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">site</rdfs:label>
     </owl:Class>
@@ -765,7 +765,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <rdfs:label xml:lang="en">fish feed ingredients</rdfs:label>
     </owl:Class>
     
@@ -1569,7 +1569,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
@@ -1585,7 +1585,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
@@ -2691,7 +2691,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002195 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002195">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">water body qualities</rdfs:label>
     </owl:Class>
@@ -2701,7 +2701,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002196 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002196">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">catch qualities</rdfs:label>
     </owl:Class>
@@ -2853,7 +2853,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/ENVO_01001246"/>
         <obo:IAO_0000115 xml:lang="en">A process during which humans rear animals or plants on land for harvest and consumption</obo:IAO_0000115>
         <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
@@ -2905,7 +2905,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002214 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002214">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C132449"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">household member</rdfs:label>
@@ -2916,7 +2916,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002215">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">household member qualities</rdfs:label>
     </owl:Class>
@@ -2946,7 +2946,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002218">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <obo:IAO_0000115 rdf:resource="http://aims.fao.org/aos/agrovoc/c_331367"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">small scale fishery</rdfs:label>
@@ -2957,7 +2957,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002219 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002219">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -2974,7 +2974,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002220 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002220">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">gear</rdfs:label>
     </owl:Class>
@@ -3054,7 +3054,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002228">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">gear qualities</rdfs:label>
     </owl:Class>
@@ -3105,7 +3105,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
@@ -3474,7 +3474,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002269 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002269">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">aquaculture trial</rdfs:label>
     </owl:Class>
@@ -3494,7 +3494,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002271 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002271">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">fish feed qualities</rdfs:label>
     </owl:Class>
@@ -3604,7 +3604,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002282 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002282">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <oboInOwl:hasExactSynonym xml:lang="en">fish chemical treatment</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">fish treatment</rdfs:label>
@@ -3665,7 +3665,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002288 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002288">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">treatment qualities</rdfs:label>
     </owl:Class>
@@ -3776,7 +3776,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002316 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002316">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">agronomic experimental design</rdfs:label>
     </owl:Class>
@@ -3886,7 +3886,7 @@
     <!-- http://purl.obolibrary.org/obo/SSFO_00002327 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002327">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002086"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002000"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label xml:lang="en">diagnostic</rdfs:label>
     </owl:Class>
@@ -4058,7 +4058,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002346">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002008"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">woman</rdfs:label>
+        <rdfs:label xml:lang="fr">woman</rdfs:label>
     </owl:Class>
     
 
@@ -4068,7 +4068,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002347">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002008"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">child</rdfs:label>
+        <rdfs:label xml:lang="fr">child</rdfs:label>
     </owl:Class>
     
 
@@ -4078,7 +4078,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002348">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002351"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">paddle</rdfs:label>
+        <rdfs:label xml:lang="fr">paddle</rdfs:label>
     </owl:Class>
     
 
@@ -4088,7 +4088,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002349">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002351"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">pole</rdfs:label>
+        <rdfs:label xml:lang="fr">pole</rdfs:label>
     </owl:Class>
     
 
@@ -4098,7 +4098,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002350">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002351"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">sail</rdfs:label>
+        <rdfs:label xml:lang="fr">sail</rdfs:label>
     </owl:Class>
     
 
@@ -4109,7 +4109,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
         <obo:IAO_0000115 xml:lang="en">a gear used for propulsion of a watercraft</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">propulsion gear</rdfs:label>
+        <rdfs:label xml:lang="fr">propulsion gear</rdfs:label>
     </owl:Class>
     
 
@@ -4119,7 +4119,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SSFO_00002352">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SSFO_00002220"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label xml:lang="en">fuel</rdfs:label>
+        <rdfs:label xml:lang="fr">fuel</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
