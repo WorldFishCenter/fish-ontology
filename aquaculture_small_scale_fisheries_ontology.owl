@@ -3671,7 +3671,7 @@ Definition source</owl:annotatedTarget>
     <!-- http://w3id.org/aqfo/aqfo_00002269 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002269">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002000"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
         <obo:IAO_0000115>Refers to the experimental culture of fish (or any other organisms) to determine the effectivity of culture methods or parameters affecting aquaculture productivity.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <rdfs:label>aquaculture trial</rdfs:label>
