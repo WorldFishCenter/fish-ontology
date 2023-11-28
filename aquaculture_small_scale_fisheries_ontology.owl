@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://w3id.org/assfo#"
-     xml:base="http://w3id.org/assfo"
+<rdf:RDF xmlns="http://w3id.org/aqfo#"
+     xml:base="http://w3id.org/aqfo"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -11,12 +11,12 @@
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="http://w3id.org/assfo">
+    <owl:Ontology rdf:about="http://w3id.org/aqfo">
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0002-8461-9745"/>
         <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4169-2456"/>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-11-30</dcterms:modified>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-11-10</dcterms:modified>
         <skos:definition>small scale fisheries and aquaculture ontology</skos:definition>
     </owl:Ontology>
     
@@ -285,6 +285,7 @@
 
     <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00000015">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00000043"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002012"/>
         <obo:IAO_0000115>Is the place within a region or country wherein fish or fishery products are sold.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label>local market</rdfs:label>
@@ -528,23 +529,6 @@
     
 
 
-    <!-- http://w3id.org/aqfo/aqfo_00000036 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00000036">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002088"/>
-        <obo:IAO_0000115>A taxon (plural taxa) is an element of a taxonomy, e.g. in the scientific classification in biology. For example, in biology, the family Cichlidae  is one taxon, as is the genus Oreochromis and the species Oreochromis niloticus. Taxa form a hierarchical scheme, each being broken down into subtaxa.</obo:IAO_0000115>
-        <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
-        <rdfs:label>taxa</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00000036"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A taxon (plural taxa) is an element of a taxonomy, e.g. in the scientific classification in biology. For example, in biology, the family Cichlidae  is one taxon, as is the genus Oreochromis and the species Oreochromis niloticus. Taxa form a hierarchical scheme, each being broken down into subtaxa.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MacNamara, N., Nash, R., Nelson, B., O’Connor J.P., Picton, B., &amp; Speight, M.C.D. (2006). InvertebrateIreland Online. Dublin, Ireland: Ulster Museum, Belfast and National Museum of Ireland. ;http://www.habitas.org.uk/invertebrateireland/glossary.html</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://w3id.org/aqfo/aqfo_00000037 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00000037">
@@ -632,6 +616,7 @@
 
     <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00000045">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00000043"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002012"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-2789-1558"/>
         <rdfs:label xml:lang="en">export</rdfs:label>
     </owl:Class>
@@ -1600,7 +1585,8 @@ https://www.agrilinks.org/post/what-value-chain-example-aquaculture</oboInOwl:ha
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002030"/>
         <obo:IAO_0000115>Glycogen is a polymeric form of glucose primarily stored in the liver of animals and is used to supply short-term demand for energy.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>glycogen content - (not a feed ingredient)</rdfs:label>
+        <rdfs:comment>not a feed ingredient</rdfs:comment>
+        <rdfs:label>glycogen content</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002046"/>
@@ -1954,7 +1940,8 @@ https://www.agrilinks.org/post/what-value-chain-example-aquaculture</oboInOwl:ha
     <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002065">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002018"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>stay-C THIS COULD BE A Private Product</rdfs:label>
+        <rdfs:comment>This could be a private product</rdfs:comment>
+        <rdfs:label>stay-C</rdfs:label>
     </owl:Class>
     
 
@@ -2288,24 +2275,6 @@ https://www.agrilinks.org/post/what-value-chain-example-aquaculture</oboInOwl:ha
     
 
 
-    <!-- http://w3id.org/aqfo/aqfo_00002086 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002086">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002000"/>
-        <obo:IAO_0000115>A vocabulary of terms and concepts of small-scale fisheries and their relationships to one another</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>small scale fisheries ontology </rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002086"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A vocabulary of terms and concepts of small-scale fisheries and their relationships to one another</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Gruber, T. (2001). What is an Ontology?. Stanford University.;https://web.archive.org/web/20100716004426/http://www-ksl.stanford.edu/kst/what-is-an-ontology.html</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://w3id.org/aqfo/aqfo_00002087 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002087">
@@ -2349,1113 +2318,6 @@ https://www.agrilinks.org/post/what-value-chain-example-aquaculture</oboInOwl:ha
         <owl:annotatedTarget>The total number (or weight) of fish caught by fishing operations. Catch should include all fish killed by the act of fishing, not just those landed. The component of fish encountering fishing gear, which is retained by the gear.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Blackhart, K., Stanton, D. G., &amp; Shimada, A. M. (2006). NOAA fisheries glossary (Revised edition). Silver Spring, MD: United States Department of Commerce, National Oceanic and Atmospheric Administration.;https://spo.nmfs.noaa.gov/sites/default/files/tm69.pdf</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002089 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002089">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002088"/>
-        <obo:IAO_0000115>Are fish species that lives all, or a critical part of its life in freshwater bodies or brackish estuaries. Including: all &quot;primary&quot; (salt intolerant or stenohaline) freshwater fish, e.g. carps, characins, cichlids; all  &quot;secondary&quot; (salt tolerant or euryhaline) freshwater (diadramous) fishes, e.g. salmon, eels, some rays and sawfish (elasmobranchs); some estuarine fish, e.g. archer fish and gobies; and soda and salt lake fish. </obo:IAO_0000115>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4169-2456"/>
-        <rdfs:label>freshwater fishes</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002089"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Are fish species that lives all, or a critical part of its life in freshwater bodies or brackish estuaries. Including: all &quot;primary&quot; (salt intolerant or stenohaline) freshwater fish, e.g. carps, characins, cichlids; all  &quot;secondary&quot; (salt tolerant or euryhaline) freshwater (diadramous) fishes, e.g. salmon, eels, some rays and sawfish (elasmobranchs); some estuarine fish, e.g. archer fish and gobies; and soda and salt lake fish. </owl:annotatedTarget>
-        <oboInOwl:hasDbXref>IUCN Freshwater Fish Specialist Group. (2015). Freshwater fish diversity. Switzerland: IUCN. ;https://www.iucnffsg.org/freshwater-fishes/freshwater-fish-diversity/</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002090 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002090">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002089"/>
-        <obo:IAO_0000115>Cyprinidae is a family of freshwater fish commonly called the carp or minnow family. It includes the carps, the true minnows, and relatives like the barbs and barbels. Cyprinidae is the largest and most diverse fish family and the largest vertebrate animal family in general with about 3,000 species,</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4169-2456"/>
-        <rdfs:label>cyprinids</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002090"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Cyprinidae is a family of freshwater fish commonly called the carp or minnow family. It includes the carps, the true minnows, and relatives like the barbs and barbels. Cyprinidae is the largest and most diverse fish family and the largest vertebrate animal family in general with about 3,000 species,</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Wilipedia;https://en.wikipedia.org/wiki/Cyprinidae</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002091 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002091">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002090"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>carps</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002092 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002092">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002090"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>barbels</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002093 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002093">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002089"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>cichlids</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002094 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002094">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002093"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>tilapias</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002095 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002095">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002088"/>
-        <obo:IAO_0000115>Are fish species that regularly migrate between the sea and freshwater. These fish include the anadromous species that spawn in fresh water but spend much of their lives in the sea, the catadromous species that spawn at sea but spend most of their lives in freshwater, and those species that live in estuaries for much of their lives and may spawn in the sea or estuaries but are estuarine dependent during important life stages. </obo:IAO_0000115>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4169-2456"/>
-        <rdfs:label>diadromous fishes</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002095"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Are fish species that regularly migrate between the sea and freshwater. These fish include the anadromous species that spawn in fresh water but spend much of their lives in the sea, the catadromous species that spawn at sea but spend most of their lives in freshwater, and those species that live in estuaries for much of their lives and may spawn in the sea or estuaries but are estuarine dependent during important life stages. </owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Jones, C. M. (2006). Estuarine and diadromous fish metapopulations. In: J. P. Kritzer &amp; P. F. Sale (Eds.). Marine metapopulations (pp. 119-154). Netherlands: Academic Press. ;https://doi.org/10.1016/B978-012088781-1/50007-8 
-
-https://www.sciencedirect.com/topics/earth-and-planetary-sciences/estuary</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002096 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002096">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002095"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>sturgeons</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002097 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002097">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002095"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>paddlefishes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002098 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002098">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002095"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>river eels</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002099 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002099">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002095"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>salmons</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002100 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002100">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002095"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>trouts</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002101 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002101">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002095"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>smelts</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002102 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002102">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002095"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>shads</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002103 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002103">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002088"/>
-        <obo:IAO_0000115>Are fish species that live in every oceanic ecosystem, ranging from shallow waters to the vast, deep, open ocean, which is characterized by having a distinct thermal, oxic, and photic stratification.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <rdfs:label>marine fishes</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Are fish species that live in every oceanic ecosystem, ranging from shallow waters to the vast, deep, open ocean, which is characterized by having a distinct thermal, oxic, and photic stratification.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Bernal, D. (2011). Pelagic fishes: An introduction to the biology of pelagic fishes. In: Farrell, A. P. (Eds.). Encyclopedia of fish physiology: From genome to environment (pp. 1887-1902). Netherlands: Academic Press.;https://doi.org/10.1016/B978-0-12-374553-8.00112-X</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002104 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002104">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <obo:IAO_0000115>Marine flat fishes in the order of Pleuronectiformes</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>flounders</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002105 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002105">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>halibuts</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002106 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002106">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>soles</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002107 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002107">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>cods</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002108 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002108">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>hakes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002109 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002109">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>haddocks</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002110 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002110">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <obo:IAO_0000115>Fishes that inhabit the sea between the shoreline and the edge of the continental shelf. </obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>coastal fishes</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002110"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Fishes that inhabit the sea between the shoreline and the edge of the continental shelf. </owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Coastal fish. (2021, Dec 22). Wikipedia, the free encyclopaedia.;https://en.wikipedia.org/wiki/Coastal_fish</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002111 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002111">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <obo:IAO_0000115>Fishes living in close relation with the bottom and depending on it. Cods, groupers, crabs, and lobsters are demersal resources. The term demersal usually refers to the living mode of the adult fish.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>demersal fishes</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002111"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Fishes living in close relation with the bottom and depending on it. Cods, groupers, crabs, and lobsters are demersal resources. The term demersal usually refers to the living mode of the adult fish.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Blackhart, K., Stanton, D. G., &amp; Shimada, A. M. (2006). NOAA fisheries glossary (Revised edition). Silver Spring, MD: United States Department of Commerce, National Oceanic and Atmospheric Administration.;https://spo.nmfs.noaa.gov/sites/default/files/tm69.pdf</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002112 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002112">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>herrings</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002113 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002113">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>sardines</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002114 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002114">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>anchovies</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002115 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002115">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <obo:IAO_0000115>one of 15 species of the tribe Thunnini, a subgrouping of the Scombridae family</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>tunas</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002116 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002116">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <obo:IAO_0000115>one of 8 species of the tribe Sardini, a subgrouping of the Scombridae family</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>bonitos</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002117 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002117">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <obo:IAO_0000115>a group of saltwater predatory fish characterised by prominent pointed bills (rostra), and by their large size; some are longer than 4 m (13 ft). Extant billfish include sailfish and marlin, which make up the family Istiophoridae; and swordfish, sole member of the family Xiphiidae.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>billfishes</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002117"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>a group of saltwater predatory fish characterised by prominent pointed bills (rostra), and by their large size; some are longer than 4 m (13 ft). Extant billfish include sailfish and marlin, which make up the family Istiophoridae; and swordfish, sole member of the family Xiphiidae.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Billfish;</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002118 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002118">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <obo:IAO_0000115>Fish that live in the open ocean at or near the water’s surface and usually migrate long distances. Examples include swordfish, tunas, and many species of billfish and shark.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>pelagic fishes</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002118"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Fish that live in the open ocean at or near the water’s surface and usually migrate long distances. Examples include swordfish, tunas, and many species of billfish and shark.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Blackhart, K., Stanton, D. G., &amp; Shimada, A. M. (2006). NOAA fisheries glossary (Revised edition). Silver Spring, MD: United States Department of Commerce, National Oceanic and Atmospheric Administration.;https://spo.nmfs.noaa.gov/sites/default/files/tm69.pdf</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002119 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002119">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <obo:IAO_0000115>a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>sharks</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002119"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>a group of elasmobranch fish characterized by a cartilaginous skeleton, five to seven gill slits on the sides of the head, and pectoral fins that are not fused to the head</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/sharks;</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002120 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002120">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <obo:IAO_0000115>a member of the Batoidea superorder of cartilaginous fishes </obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>rays</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002120"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>a member of the Batoidea superorder of cartilaginous fishes </owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/batoidea;</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002121 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002121">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002103"/>
-        <obo:IAO_0000115> cartilaginous fish in the order Chimaeriformes</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>chimaeras</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002121"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget> cartilaginous fish in the order Chimaeriformes</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Chimaera;</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002122 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002122">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002088"/>
-        <obo:IAO_0000115>Any member of the 45,000 arthropod species in the subphylum Crustacea. Distributed worldwide, crustaceans are distinguished by having two pairs of antenna-like appendages in front of the mouth and other paired appendages near the mouth that act like jaws. Most species are marine, including shrimps and barnacles. Some, including crayfishes, live in freshwater habitats; others (e.g., sand fleas, land crabs, and sow bugs) live in moist terrestrial environments. The typical adult body is composed of a series of segments (somites) either fused or linked to each other by flexible areas that form movable joints. The carapace (shell) varies in thickness among species and must be periodically molted to allow growth. Many species of marine crustaceans are scavengers, and many (including copepods and krill) are significant components of the diets of larger organisms.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <rdfs:label>crustaceans</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Any member of the 45,000 arthropod species in the subphylum Crustacea. Distributed worldwide, crustaceans are distinguished by having two pairs of antenna-like appendages in front of the mouth and other paired appendages near the mouth that act like jaws. Most species are marine, including shrimps and barnacles. Some, including crayfishes, live in freshwater habitats; others (e.g., sand fleas, land crabs, and sow bugs) live in moist terrestrial environments. The typical adult body is composed of a series of segments (somites) either fused or linked to each other by flexible areas that form movable joints. The carapace (shell) varies in thickness among species and must be periodically molted to allow growth. Many species of marine crustaceans are scavengers, and many (including copepods and krill) are significant components of the diets of larger organisms.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>The Editors of Encyclopaedia Britannica. (2018, Oct 12). Crustacean summary. Encyclopedia Britannica. ;https://www.britannica.com/summary/crustacean</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002123 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002123">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <obo:IAO_0000115>Aquatic animal belonging to the phylum Arthropoda, a major group of invertebrate organisms characterized by their chitinous exoskeleton and jointed appendages, occurring in freshwaters, e.g. crabs, lobsters, crayfish, shrimps, prawns, etc. Microcrustaceans include cladocerans and copepods. </obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>freshwater crustaceans</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002123"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Aquatic animal belonging to the phylum Arthropoda, a major group of invertebrate organisms characterized by their chitinous exoskeleton and jointed appendages, occurring in freshwaters, e.g. crabs, lobsters, crayfish, shrimps, prawns, etc. Microcrustaceans include cladocerans and copepods. </owl:annotatedTarget>
-        <oboInOwl:hasDbXref>FAO term portal. (2021). Rome: FAO.;https://www.fao.org/faoterm/collection/fisheries/en/</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002124 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002124">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>crabs</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002125 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002125">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>sea-spiders</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002126 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002126">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>lobsters</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002127 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002127">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>spiny-rock lobsters</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002128 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002128">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>king crabs</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002129 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002129">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>squat-lobsters</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002130 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002130">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>shrimps</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002131 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002131">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>prawns</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002132 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002132">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>krill</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002133 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002133">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002122"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>planktonic crustaceans</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002134 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002134">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002088"/>
-        <obo:IAO_0000115>Any of some 75,000 species of soft-bodied invertebrate animals (phylum Mollusca), many of which are wholly or partly enclosed in a calcium carbonate shell secreted by the mantle, a soft covering formed from the body wall. Between the mantle and the body is the mantle cavity. Mollusks occur in most habitats from the deep sea to high mountains. Living mollusks are usually grouped into eight classes: Gastropoda (see gastropod), Bivalvia or Pelecypoda (see bivalve), Cephalopoda (see cephalopod), Scaphopoda (tusk shells), Aplacophora (Solenogasters), Caudofoveata (sometimes included in the Aplacophora order), Polyplacophora (chitons), and Monoplacophora. Mollusks are economically important as food, and their shells are widely used in jewelry and decorative items.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>molluscs</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Any of some 75,000 species of soft-bodied invertebrate animals (phylum Mollusca), many of which are wholly or partly enclosed in a calcium carbonate shell secreted by the mantle, a soft covering formed from the body wall. Between the mantle and the body is the mantle cavity. Mollusks occur in most habitats from the deep sea to high mountains. Living mollusks are usually grouped into eight classes: Gastropoda (see gastropod), Bivalvia or Pelecypoda (see bivalve), Cephalopoda (see cephalopod), Scaphopoda (tusk shells), Aplacophora (Solenogasters), Caudofoveata (sometimes included in the Aplacophora order), Polyplacophora (chitons), and Monoplacophora. Mollusks are economically important as food, and their shells are widely used in jewelry and decorative items.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>The Editors of Encyclopaedia Britannica. (2021, March 16). Mollusk summary. Encyclopedia Britannica.;https://www.britannica.com/summary/mollusk</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002135 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002135">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <obo:IAO_0000115>Mollusks that inhabit the freshwater environment.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>freshwater molluscs</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002136 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002136">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <obo:IAO_0000115>any of various edible marine gastropod molluscs of the genus Haliotis, having an ear-shaped shell that is perforated with a row of respiratory holes. The shells are used for ornament or decoration</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4169-2456"/>
-        <rdfs:label>abalones</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002136"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>any of various edible marine gastropod molluscs of the genus Haliotis, having an ear-shaped shell that is perforated with a row of respiratory holes. The shells are used for ornament or decoration</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.collinsdictionary.com/dictionary/english/abalone;</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002137 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002137">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>winkles</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002138 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002138">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>conchs</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002139 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002139">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>oysters</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002140 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002140">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>mussels</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002141 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002141">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>scallops</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002142 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002142">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>pectens</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002143 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002143">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>clams</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002144 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002144">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>cockles</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002145 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002145">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>arkshells</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002146 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002146">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>squids</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002147 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002147">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>cuttlefishes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002148 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002148">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002134"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>octopuses</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002149 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002149">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002088"/>
-        <obo:IAO_0000115>Are organisms that live in and rely on aquatic ecosystems for a part of or for all of their lives. These aquatic ecosystems include both marine and freshwater systems. Aquatic mammals are warm-blooded animals that breathe air through their lungs, have had hair at some point of their development, and nurse their young with their milk.
-Marine mammals are found in marine ecosystems around the globe. They are a diverse group of mammals with unique physical adaptations that allow them to thrive in the marine environment with extreme temperatures, depths, pressure, and darkness. Marine mammals are classified into four different taxonomic groups: cetaceans (whales, dolphins, and porpoises), pinnipeds (seals, sea lions, and walruses), sirenians (manatees and dugongs), and marine fissipeds (polar bears and sea otters).</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4169-2456"/>
-        <rdfs:label>aquatic mammals</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002149"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Are organisms that live in and rely on aquatic ecosystems for a part of or for all of their lives. These aquatic ecosystems include both marine and freshwater systems. Aquatic mammals are warm-blooded animals that breathe air through their lungs, have had hair at some point of their development, and nurse their young with their milk.
-Marine mammals are found in marine ecosystems around the globe. They are a diverse group of mammals with unique physical adaptations that allow them to thrive in the marine environment with extreme temperatures, depths, pressure, and darkness. Marine mammals are classified into four different taxonomic groups: cetaceans (whales, dolphins, and porpoises), pinnipeds (seals, sea lions, and walruses), sirenians (manatees and dugongs), and marine fissipeds (polar bears and sea otters).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Gallieta, F. Hohman, K., Radhakrishnan, S. &amp; Sauder, M. (n.d.). Mammal adaptations to aquatic ecosystems. Ohio: The Ohio State University. 
-
-NOAA
-
-;https://u.osu.edu/worldunseen/mammal-adaptations-to-aquatic-ecosystems/
-
-https://www.noaa.gov/education/resource-collections/marine-life/marine-mammals</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002150 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002150">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002149"/>
-        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0015733"/>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <rdfs:label>whales</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002151 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002151">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002150"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>blue-whales</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002152 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002152">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002150"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>fin-whales</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002153 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002153">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002150"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>sperm-whales</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002154 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002154">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002150"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>pilot-whales</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002155 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002155">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002149"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>seals</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002156 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002156">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002155"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>eared seals</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002157 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002157">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002155"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>hair seals</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002158 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002158">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002155"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>walruses</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002159 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002159">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002353"/>
-        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0002077"/>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>amphibians</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002160 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002160">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002159"/>
-        <obo:IAO_0000115>An amphibian in the order Anura, which includes the toads. The commonest frog genera are Rana (grass frogs) and Hyla (tree frogs).</obo:IAO_0000115>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>frogs</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002161 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002161">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002357"/>
-        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0015262"/>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>turtles</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002162 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002162">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002357"/>
-        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001909"/>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>crocodiles</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002163 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002163">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002358"/>
-        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0001909"/>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>alligators</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002164 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002164">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002355"/>
-        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_111869"/>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>tunicates</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002165 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002165">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002164"/>
-        <obo:IAO_0000115>Also called ascidian, any member of the invertebrate class Ascidiacea (subphylum Urochordata, also called Tunicata), marine animals with some primitive vertebrate features. Most sea squirts are sessile (permanently fixed to a surface), potato-shaped organisms found in all seas, from the intertidal zone to the greatest depths. </obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>sea-squirts</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002165"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Also called ascidian, any member of the invertebrate class Ascidiacea (subphylum Urochordata, also called Tunicata), marine animals with some primitive vertebrate features. Most sea squirts are sessile (permanently fixed to a surface), potato-shaped organisms found in all seas, from the intertidal zone to the greatest depths. </owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Sea squirt. (2020). Encyclopedia Britannica.;https://www.britannica.com/animal/sea-squirt</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002166 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002166">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002354"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>arachnids</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002167 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002167">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002166"/>
-        <obo:IAO_0000115 rdf:resource="http://purl.obolibrary.org/obo/OMIT_0007880"/>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>horseshoe crabs</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002168 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002168">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002355"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>echinoderms</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002169 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002169">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002168"/>
-        <obo:IAO_0000115>The group includes Sea-urchins and other echinoderms belonging to the ISSCAAP group 76. The part consumed/analysed is by default unspecified. When relevant, information on the part consumed/analysed has to be reported with additional facet descriptors.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>sea-urchins</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002170 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002170">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002356"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>aquatic invertebrates</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002171 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002171">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002088"/>
-        <obo:IAO_0000115>Type 08 - Aquatic animal products Aquatic animal products are derived from the edible parts of various aquatic animals, usually wild, harvested for food.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <rdfs:label>aquatic animal products</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002172 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002172">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002171"/>
-        <obo:IAO_0000115>a hard object made of layers of concentrically depositied calcium carbonate within the soft tissue of mollusks </obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
-        <rdfs:label>pearls</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002173 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002173">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002172"/>
-        <obo:IAO_0000115>Also known as nacre, is the iridescent material which forms the inner layer of seashells from gastropods and bivalves.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>mother-of-pearl</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002173"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Also known as nacre, is the iridescent material which forms the inner layer of seashells from gastropods and bivalves.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Barthelat, F., Tang, H., Zavattieri, P. D., Li, C. M., &amp; Espinosa, H. D. (2007). On the mechanics of mother-of-pearl: a key feature in the material hierarchical structure. Journal of the Mechanics and Physics of Solids, 55(2), 306-337.;https://doi.org/10.1016/j.jmps.2006.07.007</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002174 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002174">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002172"/>
-        <obo:IAO_0000115>A hard exoskeleton of marine mollusks such as snails, bivalves, and chitons that serves to protect and support their bodies. Seashells are collected all over the world because of their endless diversity, elegance of form, and bright colours. They also have been used to make jewelry, buttons, inlays, and other decorative items throughout history. </obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <oboInOwl:hasExactSynonym>seashells</oboInOwl:hasExactSynonym>
-        <rdfs:label>shells</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002174"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hard exoskeleton of marine mollusks such as snails, bivalves, and chitons that serves to protect and support their bodies. Seashells are collected all over the world because of their endless diversity, elegance of form, and bright colours. They also have been used to make jewelry, buttons, inlays, and other decorative items throughout history. </owl:annotatedTarget>
-        <oboInOwl:hasDbXref>The Editors of Encyclopaedia Britannica. (2021 Nov 17). Seashell. Encyclopedia Britannica. ;https://www.britannica.com/science/seashell</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002175 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002175">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002171"/>
-        <obo:IAO_0000115>marine invertebrates within the class Anthozoa of the phylum Cnidaria</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>corals</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002176 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002176">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002171"/>
-        <obo:IAO_0000115>sessile, multicellular aquatic animals; members of the phylum Porifera</obo:IAO_0000115>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>sponges</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002177 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002177">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002088"/>
-        <obo:IAO_0000115>Are plants that live in shallow coastal zones, wetlands, rivers, and lakes. Aquatic plants provide important food and habitat for other organisms.</obo:IAO_0000115>
-        <dc:contributor rdf:resource="https://orcid.org/0000-0002-2789-1558"/>
-        <rdfs:label>aquatic plants</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002177"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Are plants that live in shallow coastal zones, wetlands, rivers, and lakes. Aquatic plants provide important food and habitat for other organisms.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>What are aquatic plants and algae. (2021). Hawai‘i: University of Hawai‘i. ;https://manoa.hawaii.edu/exploringourfluidearth/biological/aquatic-plants-and-algae/what-are-aquatic-plants-and-algae</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002178 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002178">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002177"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>brown seaweeds</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002179 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002179">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002177"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>red seaweeds</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002180 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002180">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002177"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>green seaweeds</rdfs:label>
-    </owl:Class>
     
 
 
@@ -4030,26 +2892,6 @@ Myanmar, Nay Pyi Taw and Yangoon, Myanmar, 29–30 September 2015. Rome, Italy: 
     
 
 
-    <!-- http://w3id.org/aqfo/aqfo_00002216 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002216">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002215"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>household member weight (not yet defined)</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002217 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002217">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002215"/>
-        <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>household member vitamin deficiency  (not yet defined)</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/aqfo/aqfo_00002218 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002218">
@@ -4388,7 +3230,7 @@ appurtenances and full fuel tanks. For inboard boats it also includes the engine
         <obo:IAO_0000115>pisciculture or aquaculture involves commercial breeding of fish, usually for food, in fish tanks or artificial enclosures such as fish ponds. It is a particular type of aquaculture, which is the controlled cultivation and harvesting of aquatic animals such as fish, crustaceans, molluscs and so on, in natural or pseudo-natural environment</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4169-2456"/>
-        <rdfs:label>Pisciculture </rdfs:label>
+        <rdfs:label>pisciculture</rdfs:label>
     </owl:Class>
     
 
@@ -5501,7 +4343,7 @@ Definitions and Applications. Southern Regional Aquaculture Center (SRAC) Public
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002327"/>
         <obo:IAO_0000115>Is the study of the interaction between parasites and their hosts. In general, parasitologists tend to concentrate on eukaryotic parasites, such as lice, mites, protozoa and worms, with prokaryotic parasites and other infectious agents the focusof fields such as bacteriology, microbiology and virology. Parasites are extremely common, and are responsible for some of the world&apos;s most deadly illnesses, from dysentery and diarrhoea to malaria.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>parasitology‚Äã</rdfs:label>
+        <rdfs:label>parasitology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002328"/>
@@ -5518,7 +4360,7 @@ Definitions and Applications. Southern Regional Aquaculture Center (SRAC) Public
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002327"/>
         <obo:IAO_0000115>Is a branch of microbiology that study viruses and viral diseases</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>virology‚Äã</rdfs:label>
+        <rdfs:label>virology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002329"/>
@@ -5535,7 +4377,7 @@ Definitions and Applications. Southern Regional Aquaculture Center (SRAC) Public
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002327"/>
         <obo:IAO_0000115>Is the culture and identification of bacteria growing under specific conditions.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>bacteriology‚Äã</rdfs:label>
+        <rdfs:label>bacteriology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
@@ -5552,7 +4394,7 @@ Definitions and Applications. Southern Regional Aquaculture Center (SRAC) Public
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002327"/>
         <obo:IAO_0000115>Is the study of disease and disease processes by looking at the change in the anatomy or anomalies from cells, tissues and organs as seen through a microscope. </obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>histopathology‚Äã</rdfs:label>
+        <rdfs:label>histopathology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002331"/>
@@ -5569,7 +4411,7 @@ Definitions and Applications. Southern Regional Aquaculture Center (SRAC) Public
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002327"/>
         <obo:IAO_0000115>Is the study of the normal and pathologic aspects of blood and blood elements. </obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>heamatology‚Äã</rdfs:label>
+        <rdfs:label>heamatology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002332"/>
@@ -5728,28 +4570,6 @@ https://www.genome.gov/about-genomics/fact-sheets/Polymerase-Chain-Reaction-Fact
     
 
 
-    <!-- http://w3id.org/aqfo/aqfo_00002344 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002344">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002012"/>
-        <obo:IAO_0000115>DUPLICATE term no. 324</obo:IAO_0000115>
-        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>local market</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002345 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002345">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002012"/>
-        <obo:IAO_0000115>DUPLICATE term no. 325</obo:IAO_0000115>
-        <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
-        <rdfs:label>export</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/aqfo/aqfo_00002346 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002346">
@@ -5849,60 +4669,6 @@ https://www.genome.gov/about-genomics/fact-sheets/Polymerase-Chain-Reaction-Fact
         <dc:creator rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
         <rdfs:label>fuel</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002353 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002353">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002088"/>
-        <rdfs:label>animals</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002354 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002354">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002353"/>
-        <rdfs:label>arthropods</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002355 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002355">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002356"/>
-        <rdfs:label>marine animals</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002356 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002356">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002353"/>
-        <rdfs:label>aquatic animals</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002357 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002357">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002353"/>
-        <rdfs:label>aquatic reptiles</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/aqfo/aqfo_00002358 -->
-
-    <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002358">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002357"/>
-        <rdfs:label>freshwater reptiles</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
