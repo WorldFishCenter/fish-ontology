@@ -180,6 +180,15 @@
     
 
 
+    <!-- http://w3id.org/aqfo/AQFO_00005002 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00005002">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002269"/>
+        <obo:IAO_0000115>Polyculture is the production of two or more cultured species in the same physical space at the same time, often with the objective of producing multiple products that have economic value. They may be a combination of animals, plants and animals, aquatic species only, or aquatic and terrestrial species.</obo:IAO_0000115>
+        <dc:creator>YHoong</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-28T07:04:36Z</dc:date>
+        <rdfs:label xml:lang="en">polyculture</rdfs:label>
+
     <!-- http://w3id.org/aqfo/AQFO_00015002 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015002">
@@ -199,6 +208,7 @@
         <dc:creator>NRoslan</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-28T07:12:20Z</dc:date>
         <rdfs:label xml:lang="en">Site</rdfs:label>
+
     </owl:Class>
     
 
