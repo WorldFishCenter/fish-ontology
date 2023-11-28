@@ -204,6 +204,8 @@
         <dc:creator>YHoong</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-28T07:04:36Z</dc:date>
         <rdfs:label xml:lang="en">polyculture</rdfs:label>
+    </owl:Class>
+    
 
     <!-- http://w3id.org/aqfo/AQFO_00015002 -->
 
@@ -224,7 +226,6 @@
         <dc:creator>NRoslan</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-28T07:12:20Z</dc:date>
         <rdfs:label xml:lang="en">Site</rdfs:label>
-
     </owl:Class>
     
 
