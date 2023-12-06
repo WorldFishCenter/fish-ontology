@@ -198,6 +198,25 @@
     
 
 
+    <!-- http://w3id.org/aqfo/AQFO_00000003 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00000003">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
+        <obo:IAO_0000115>Branchiomycosis is a fungal infection; one of several serious and deadly infections that can affect a fish&apos;s gills. This particular infection is most often due to the environmental conditions of the water in which the fish are kept.</obo:IAO_0000115>
+        <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-06T03:12:44Z</dc:date>
+        <oboInOwl:hasExactSynonym>Branchiomycosis</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">gills rot</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00000003"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Branchiomycosis is a fungal infection; one of several serious and deadly infections that can affect a fish&apos;s gills. This particular infection is most often due to the environmental conditions of the water in which the fish are kept.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://www.petmd.com/fish/conditions/infectious-parasitic/c_fi_branchiomycosis"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://w3id.org/aqfo/AQFO_00005002 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00005002">
