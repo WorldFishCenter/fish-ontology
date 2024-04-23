@@ -252,20 +252,838 @@
     
 
 
+    <!-- http://w3id.org/aqfo/AQFO_00015032 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015032">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">Gher is a local term and refers to the modified rice fields by building higher dikes surrounding the field and excavating a canal inside to hold water during dry seasons.</obo:IAO_0000115>
+        <obo:IAO_0000115>This refers to the modification of rice fields to accommodate more than one enterprise eg. prawn-fish-rice combination.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T01:57:21Z</dc:date>
+        <rdfs:label xml:lang="en">gher</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015032"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Gher is a local term and refers to the modified rice fields by building higher dikes surrounding the field and excavating a canal inside to hold water during dry seasons.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Samanta, S., &amp; Roy, P. (2023). Aquaculture practices in Bangladesh: A synopsis on prospects, productivity, and problems. Journal of the World Aquaculture Society, 55(1), 4–25. https://doi.org/10.1111/jwas.13045
+
+‌</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015033 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015033">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00020004"/>
+        <obo:IAO_0000115 xml:lang="en">assembled using fabric welding techniques such as hot air, hot bar, and radio-frequency (RF) welding.</obo:IAO_0000115>
+        <obo:IAO_0000115>is a temporary artificial water holding system made with plastic and other materials that can be used to produce fish. It can be collapsed and rebuilt.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:03:55Z</dc:date>
+        <rdfs:label xml:lang="en">collapsible pond</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015033"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">assembled using fabric welding techniques such as hot air, hot bar, and radio-frequency (RF) welding.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Collapsible tank. (2024, March 11). Wikipedia. https://en.wikipedia.org/wiki/Collapsible_tank</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015034 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015034">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002018"/>
+        <obo:IAO_0000115 xml:lang="en">Pelleting is the process of converting finely ground mash feed into dense, free flowing pellets or capsules. </obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:08:10Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">pelleted feeds</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Own farm-made pelleted feed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015034"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Pelleting is the process of converting finely ground mash feed into dense, free flowing pellets or capsules. </owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Your guide to pelleting. (n.d.). Www.borregaard.com. https://www.borregaard.com/markets/animal-feed/applications/pelleting-aids/more-on-pelleting/your-guide-to-pelleting/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015035 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015035">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002018"/>
+        <obo:IAO_0000115 xml:lang="en">may contain one or more ingredients processed by cooking or grinding.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:17:25Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">compound feeds</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Own farm-made mixed feed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015035"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">may contain one or more ingredients processed by cooking or grinding.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Piedad-Pascual F. 1996. Farm-made feeds: preparation, management, problems, and recommendations, pp. 44-51. In: Santiago CB, Coloso RM, Millamena OM, Borlongan IG (eds) Feeds for Small Scale Aquaculture. Proceedings of the National Seminar-Workshop on Fish Nutrition and Feeds.  SEAFDEC Aquaculture Department, Iloilo, Philippines. https://repository.seafdec.org.ph/bitstream/handle/10862/554/ffssa_p044-051.pdf?isAllowed=y&amp;sequence=1</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015037 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015037">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002018"/>
+        <obo:IAO_0000115 xml:lang="en">The feed is sized 0.5-1 mm specifically for the fish to facilitate consumption, and nutrients are highly available to the fish to support optimum growth and development.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:24:18Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">Nursery feed</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Starter feed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015037"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The feed is sized 0.5-1 mm specifically for the fish to facilitate consumption, and nutrients are highly available to the fish to support optimum growth and development.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Limited, S. F. (n.d.). Fish STARTER 0.5MM, 1MM | SIGMA FEEDS LIMITED. Www.sigmafeeds.com. Retrieved March 27, 2024, from https://www.sigmafeeds.com/Livestock_feeds_in_kenya/fish_starter_feed</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015038 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015038">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
+        <obo:IAO_0000115 xml:lang="en">the activity of trying to catch fish. The term fishing broadly includes catching aquatic animals other than fish, such as crustaceans (shrimp/lobsters/crabs), shellfish, cephalopods (octopus/squid) and echinoderms (starfish/sea urchins).</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:31:53Z</dc:date>
+        <rdfs:label xml:lang="en">fishing</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015038"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">the activity of trying to catch fish. The term fishing broadly includes catching aquatic animals other than fish, such as crustaceans (shrimp/lobsters/crabs), shellfish, cephalopods (octopus/squid) and echinoderms (starfish/sea urchins).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia Contributors. (2019, February 4). Fishing. Wikipedia; Wikimedia Foundation. https://en.wikipedia.org/wiki/Fishing</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015039 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015039">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
+        <obo:IAO_0000115 xml:lang="en">a form of aquaculture in which fish are raised in enclosures to be sold as food. It is the fastest growing area of animal food production.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:36:32Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">fish culture</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">fish farming</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015039"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">a form of aquaculture in which fish are raised in enclosures to be sold as food. It is the fastest growing area of animal food production.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Animal Welfare Institute. (2019). Fish Farming. Awionline.org. https://awionline.org/content/fish-farming</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015040 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015040">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
+        <obo:IAO_0000115 xml:lang="en">A fisher returning with more fish than is needed to meet personal needs will tend to exchange surplus fish for other goods or services. </obo:IAO_0000115>
+        <obo:IAO_0000115>Fish trading may also refer to fishers/non fishers exchanging fish for money, goods or services. It may be midllemen, fishers, fish farmers, retailers or wholesalers.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:38:58Z</dc:date>
+        <rdfs:label xml:lang="en">fish trading</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A fisher returning with more fish than is needed to meet personal needs will tend to exchange surplus fish for other goods or services. </owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FAO Fisheries &amp; Aquaculture. (n.d.). Www.fao.org. https://www.fao.org/fishery/en/trade</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015041 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015041">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
+        <obo:IAO_0000115 xml:lang="en">fish vendors are defined as those who are engaged in selling fish. Fish vendors are those who sell fish including fish that is graded, cleaned, frozen,  fried,  sun-dried,  and  packed.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:41:50Z</dc:date>
+        <rdfs:label xml:lang="en">fish vendor</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015041"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">fish vendors are defined as those who are engaged in selling fish. Fish vendors are those who sell fish including fish that is graded, cleaned, frozen,  fried,  sun-dried,  and  packed.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Rehema John Magesa, Ponsian Sewando, &amp; Lilian Daniel Mkenda. (2024). Fish Value Addition Practices by Women Fish Vendors in Dar Es Salaam: A Case of Mackerel Fish. East African Journal of Business and Economics, 7(1), 63–71. https://doi.org/10.37284/eajbe.7.1.1793</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015042 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015042">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">the amount of water falling in rain, snow, etc., within a given time and area, usually expressed as a hypothetical depth of coverage.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:46:41Z</dc:date>
+        <rdfs:label xml:lang="en">rainfall</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015042"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">the amount of water falling in rain, snow, etc., within a given time and area, usually expressed as a hypothetical depth of coverage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Definition of rainfall | Dictionary.com. (n.d.). Www.dictionary.com. https://www.dictionary.com/browse/rainfall</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015043 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015043">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">the water found underground in the cracks and spaces in soil, sand and rock. It is stored in and moves slowly through geologic formations of soil, sand and rocks called aquifers.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:57:56Z</dc:date>
+        <oboInOwl:hasExactSynonym xml:lang="en">groundwater</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">ground water</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">the water found underground in the cracks and spaces in soil, sand and rock. It is stored in and moves slowly through geologic formations of soil, sand and rocks called aquifers.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Groundwater Foundation. (2022). What is Groundwater? The Groundwater Foundation. https://groundwater.org/what-is-groundwater/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015044 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015044">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015003"/>
+        <obo:IAO_0000115 xml:lang="en">the breeding, hatching, cultivating, rearing, or on-growing of fish, aquatic life, or seaweed in confined areas within natural water bodies or on land and includes ancillary activities.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:00:17Z</dc:date>
+        <rdfs:label xml:lang="en">Land for aquaculture</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015044"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">the breeding, hatching, cultivating, rearing, or on-growing of fish, aquatic life, or seaweed in confined areas within natural water bodies or on land and includes ancillary activities.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Land-based Aquaculture Definition. (n.d.). Law Insider. Retrieved March 27, 2024, from https://www.lawinsider.com/dictionary/land-based-aquaculture</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015045 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015045">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015044"/>
+        <obo:IAO_0000115 xml:lang="en">arable land that is worked by plowing and sowing and raising crops.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:04:08Z</dc:date>
+        <oboInOwl:hasExactSynonym>cultivated land</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Cultivated agricultural land</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015045"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">arable land that is worked by plowing and sowing and raising crops.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>&quot;Cultivated land.&quot; Vocabulary.com Dictionary, Vocabulary.com, https://www.vocabulary.com/dictionary/cultivated land. Accessed 27 Mar. 2024.</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015046 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015046">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015044"/>
+        <obo:IAO_0000115 xml:lang="en">land that has not been cultivated in the last 15 years by: physical means, such as ploughing or an activity that breaks the soil surface or disrupts the subsoil, chemical means, such as adding fertiliser or soil improvers.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:09:35Z</dc:date>
+        <rdfs:label xml:lang="en">Uncultivated agricultural land</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015046"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">land that has not been cultivated in the last 15 years by: physical means, such as ploughing or an activity that breaks the soil surface or disrupts the subsoil, chemical means, such as adding fertiliser or soil improvers.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Guidance: EIA (Agriculture) regulations: apply to make changes to rural land | GovWire News. (n.d.). Www.govwire.co.uk. Retrieved March 27, 2024, from http://www.govwire.co.uk/news/natural-england/guidance-eia-agriculture-regulations-apply-to-make-changes-to-rural-land-50905</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015047 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015047">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015044"/>
+        <obo:IAO_0000115 xml:lang="en">large land areas, mainly used for grazing and growing animal fodder.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:12:15Z</dc:date>
+        <rdfs:label xml:lang="en">Land for lifestock</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">large land areas, mainly used for grazing and growing animal fodder.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>A Few Facts About Livestock and Land Use | FEFAC. (n.d.). Fefac.eu. https://fefac.eu/newsroom/news/a-few-facts-about-livestock-and-land-use/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015048 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015048">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015044"/>
+        <obo:IAO_0000115 xml:lang="en">lands which are not suitable for growing agricultural crops due to natural limitations like slope steepness, erosion hazards, stoniness, rockiness, shallow soils, wetness, flooding, extremes of climate or manmade activities such as road construction and mining.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:14:51Z</dc:date>
+        <rdfs:label xml:lang="en">Non-arable land</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015048"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">lands which are not suitable for growing agricultural crops due to natural limitations like slope steepness, erosion hazards, stoniness, rockiness, shallow soils, wetness, flooding, extremes of climate or manmade activities such as road construction and mining.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://egyankosh.ac.in/bitstream/123456789/45029/1/Unit-4.pdf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015049 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015049">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00020004"/>
+        <obo:IAO_0000115 xml:lang="en">The three most common types of earthen ponds are dug-out ponds, embankment ponds, and cut-and-fill ponds.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a man-made pond entirely constructed primarily using the natural soil and earth materials available on site.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">entirely constructed from soil materials.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:33:17Z</dc:date>
+        <rdfs:label xml:lang="en">earthen pond</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015049"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The three most common types of earthen ponds are dug-out ponds, embankment ponds, and cut-and-fill ponds.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>The 3 Most Common Types of Earthen Ponds Explained. (n.d.). 🐝 BootstrapBee.com. Retrieved March 27, 2024, from https://bootstrapbee.com/fish/the-3-most-common-types-of-earthen-ponds</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015049"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">entirely constructed from soil materials.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>1. General Background. (n.d.). Www.fao.org. https://www.fao.org/fishery/docs/CDrom/FAO_Training/FAO_Training/General/x6708e/x6708e01.htm#:~:text=Earthen%20ponds%20are%20entirely%20constructed</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015050 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015050">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00020004"/>
+        <obo:IAO_0000115 xml:lang="en">constructed by excavating soil from an area to form a hole which is then filled with water. They are usually undrainable and fed by rainfall, surface runoff* or groundwater.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:38:00Z</dc:date>
+        <rdfs:label xml:lang="en">dug-out pond</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015050"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">constructed by excavating soil from an area to form a hole which is then filled with water. They are usually undrainable and fed by rainfall, surface runoff* or groundwater.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref xml:lang="en">1. General Background. (n.d.). Www.fao.org. https://www.fao.org/fishery/docs/CDrom/FAO_Training/FAO_Training/General/x6708e/x6708e01.htm#:~:text=Earthen%20ponds%20are%20entirely%20constructed</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015051 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015051">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00020004"/>
+        <obo:IAO_0000115 xml:lang="en">formed without excavation by building one or more dikes above ground level to impound water. They are usually drainable and fed by gravity* flow of water or by pumping.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:40:24Z</dc:date>
+        <rdfs:label xml:lang="en">embankment pond</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015051"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">formed without excavation by building one or more dikes above ground level to impound water. They are usually drainable and fed by gravity* flow of water or by pumping.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>1. General Background. (n.d.). Www.fao.org. https://www.fao.org/fishery/docs/CDrom/FAO_Training/FAO_Training/General/x6708e/x6708e01.htm#:~:text=Earthen%20ponds%20are%20entirely%20constructed</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015052 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015052">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00020004"/>
+        <obo:IAO_0000115 xml:lang="en">A concrete pond is a type of artificial pond or tank constructed using concrete material.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:42:56Z</dc:date>
+        <rdfs:label xml:lang="en">concrete pond</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015052"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A concrete pond is a type of artificial pond or tank constructed using concrete material.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Udu, Augustine &amp; , Okochukwu &amp; Aguebor, Stephine &amp; Omini, Grace &amp; Agbugba, Ikechi. (2024). Cost-Benefit Analysis of Earthen Ponds against Concrete Tanks Production System in Fish Farming in Abuja FCT, Nigeria. 8. 59-72. 10.59573/emsj.8(1).2024.7</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015053 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015053">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00020004"/>
+        <obo:IAO_0000115 xml:lang="en">A tarpaulin pond is a type of artificial pond lined with tarpaulin. Temporary or semi-permanent structure generally used for aquaculture purposes.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a type of artificial fish pond made from tarpaulin, a large sheet of strong, flexible, water-resistant or waterproof material.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:45:58Z</dc:date>
+        <rdfs:label xml:lang="en">tarpaulin pond</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015053"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A tarpaulin pond is a type of artificial pond lined with tarpaulin. Temporary or semi-permanent structure generally used for aquaculture purposes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Adapted from Karim, Manjurul &amp; Leemans, Kimio &amp; Akester, Michael &amp; Phillips, Michael. (2019). Performance of emergent aquaculture technologies in Myanmar; challenges and opportunities. Aquaculture. 519. 734875. 10.1016/j.aquaculture.2019.734875.</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015054 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015054">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00020004"/>
+        <obo:IAO_0000115 xml:lang="en">PE Pond Liner is a new polymer material, which is made of polyethylene. It is the most used plastic drainage film at present and can be used in many industries. Because of its lightweight, low cost, and convenient installation, it has been used in fishery.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:50:17Z</dc:date>
+        <rdfs:label xml:lang="en">plastic pond</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015054"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">PE Pond Liner is a new polymer material, which is made of polyethylene. It is the most used plastic drainage film at present and can be used in many industries. Because of its lightweight, low cost, and convenient installation, it has been used in fishery.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Zhang, J. (2022, October 9). PE Pond Liner for Fish Farm Project in Malaysia. Medium. https://medium.com/@zl920827/pe-pond-liner-for-fish-farm-project-in-malaysia-13a713c5c0bc</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015055 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015055">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015002"/>
+        <obo:IAO_0000115 xml:lang="en">the names or terms comprising a set or system.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:56:09Z</dc:date>
+        <rdfs:label xml:lang="en">nomenclature</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015055"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">the names or terms comprising a set or system.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Definition of nomenclature | Dictionary.com. (n.d.). Www.dictionary.com. https://www.dictionary.com/browse/nomenclature</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015056 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015056">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015055"/>
+        <obo:IAO_0000115 xml:lang="en">The larvae emerging from the fertilized eggs after hatching is called hatchling. It is characterized by the presence of yolk sac hanging below from where it draws its nutrition for 2–3 days. At this stage the mouth is not formed and hence it does not take food from outside.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T04:53:47Z</dc:date>
+        <rdfs:label xml:lang="en">hatchling</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015056"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The larvae emerging from the fertilized eggs after hatching is called hatchling. It is characterized by the presence of yolk sac hanging below from where it draws its nutrition for 2–3 days. At this stage the mouth is not formed and hence it does not take food from outside.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Fish seed rearing manual. (n.d.). Www.fao.org. https://www.fao.org/3/AC381E/AC381E02.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015057 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015057">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015055"/>
+        <obo:IAO_0000115 xml:lang="en">As soon as the yolk sac of the hatchling is absorbed it is known as spawn. At this stage the mouth is formed and it starts taking small zooplankton like rotifers and supplementary feed like egg yolk, finely powdered oil cake, rice bran etc.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T04:55:32Z</dc:date>
+        <rdfs:label xml:lang="en">spawn</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015057"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">As soon as the yolk sac of the hatchling is absorbed it is known as spawn. At this stage the mouth is formed and it starts taking small zooplankton like rotifers and supplementary feed like egg yolk, finely powdered oil cake, rice bran etc.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Fish seed rearing manual. (n.d.). Www.fao.org. https://www.fao.org/3/AC381E/AC381E02.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015058 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015058">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015055"/>
+        <obo:IAO_0000115 xml:lang="en">As soon as the spawn assume the shape of the fish and grow to about 1–2 cm it is known as fry. At this stage they are primarily smaller size zooplankton feeder. It takes about 7 to 10 days for the spawn to grow up to fry stage.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a life (growth) stage of fishes that are recently hatched.  This is generally after the yolk sac has been absorbed and almost or entirely disappeared.  At this point, the swim bladder is typically functional and fish can actively feed for themselves.  Depending on the species, this stage can last a few months or more until scales develop.  Fry can be thought of as the “infant” stage for fishes.  Because of their small size at this stage (often only a few centimeters), fry are vulnerable to predation in this stage and need shallow, protected habitat to feed and grow.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:00:22Z</dc:date>
+        <oboInOwl:hasExactSynonym>fish larvae</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">fry</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015058"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">As soon as the spawn assume the shape of the fish and grow to about 1–2 cm it is known as fry. At this stage they are primarily smaller size zooplankton feeder. It takes about 7 to 10 days for the spawn to grow up to fry stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Fish seed rearing manual. (n.d.). Www.fao.org. https://www.fao.org/3/AC381E/AC381E02.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015058"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">a life (growth) stage of fishes that are recently hatched.  This is generally after the yolk sac has been absorbed and almost or entirely disappeared.  At this point, the swim bladder is typically functional and fish can actively feed for themselves.  Depending on the species, this stage can last a few months or more until scales develop.  Fry can be thought of as the “infant” stage for fishes.  Because of their small size at this stage (often only a few centimeters), fry are vulnerable to predation in this stage and need shallow, protected habitat to feed and grow.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Fry – Fishionary. (2020, February 21). https://fishionary.fisheries.org/fry/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015059 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015059">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015055"/>
+        <obo:IAO_0000115 xml:lang="en">As soon as the fry grow up to 10–15 cm size or roughly equal the size of a finger it is known as fingerling. Fingerling is the proper size for stocking in table fish production ponds. It takes about 30–60 days for the fry to grow up to fingerling size.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:04:27Z</dc:date>
+        <rdfs:label xml:lang="en">fingerlings</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015059"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">As soon as the fry grow up to 10–15 cm size or roughly equal the size of a finger it is known as fingerling. Fingerling is the proper size for stocking in table fish production ponds. It takes about 30–60 days for the fry to grow up to fingerling size.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Fish seed rearing manual. (n.d.). Www.fao.org. https://www.fao.org/3/AC381E/AC381E02.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015060 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015060">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015055"/>
+        <obo:IAO_0000115 xml:lang="en">or on-growing represents the final rearing stage before harvest and sale. It concerns the stage of fish growth between ± 40 g. to the harvest-size fish of 200 to 800 g., the individual size being determined by market demand. Generally, one can consider that urban markets are looking for fish that exceed 400-450 g. as a minimum market size and many developed2 markets require &gt;600 g.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:06:54Z</dc:date>
+        <rdfs:label xml:lang="en">fattening</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015060"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">or on-growing represents the final rearing stage before harvest and sale. It concerns the stage of fish growth between ± 40 g. to the harvest-size fish of 200 to 800 g., the individual size being determined by market demand. Generally, one can consider that urban markets are looking for fish that exceed 400-450 g. as a minimum market size and many developed2 markets require &gt;600 g.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.nzdl.org/cgi-bin/library?e=d-00000-00---off-0fnl2%2E2--00-0----0-10-0---0---0direct-10---4-------0-1l--11-en-50---20-about---00-0-1-00-0--4----0-0-11-10-0utfZz-8-00&amp;cl=CL1.5&amp;d=HASHdaa7b46b87e58d6ea94561.2.2.3%3e=1</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015061 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015061">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002271"/>
+        <obo:IAO_0000115 xml:lang="en">refer to &apos;live feed&apos; is often used as natural diets for fish larvae in aquaculture. Live feed contains various nutrients such as essential proteins, lipids, carbohydrates, vitamins, minerals, amino acids, and commonly known as living capsules of nutrition.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">specialized forms of fish feed designed for the earliest life stages of fish, specifically the larval stage immediately following hatching and the fry stage as they begin to grow.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:11:55Z</dc:date>
+        <oboInOwl:hasExactSynonym>larval feeds</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">fry feeds</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015061"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">refer to &apos;live feed&apos; is often used as natural diets for fish larvae in aquaculture. Live feed contains various nutrients such as essential proteins, lipids, carbohydrates, vitamins, minerals, amino acids, and commonly known as living capsules of nutrition.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SYUKRI, F., HASSAN, N. H., &amp; AZAMAN, S. N. A. (2022). PERFORMANCES OF FS FEED, ARTEMIA NAUPLII AND COMMERCIAL DIET ON EARLY DEVELOPMENT OF Clarias gariepinus LARVAE. JOURNAL of SUSTAINABILITY SCIENCE and MANAGEMENT, 17(2), 35–45. https://doi.org/10.46754/jssm.2022.02.004</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015062 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015062">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002271"/>
+        <obo:IAO_0000115 xml:lang="en">small floating pellets (3 mm in diameter) containing 32 to 36 percent protein. A typical fingerling feed contains soybean meal, cottonseed meal, animal proteins (such as porcine meat and bone meal, meat and bone/blood meal blend, or poultry by-product meal), corn, wheat middlings, animal fat/fish oil, and vitamin and mineral supplements.</obo:IAO_0000115>
+        <obo:IAO_0000115>specialized types of aquaculture feeds formulated to meet the nutritional needs of young fish, specifically fingerlings (young fish that have developed to about the size of a finger) and juveniles (fish that are in the stage between fingerlings and adults). These feeds are designed to promote healthy growth and development during the early life stages of fish.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:16:18Z</dc:date>
+        <oboInOwl:hasExactSynonym>juvenile feeds</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">fingerlings feeds</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015062"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">small floating pellets (3 mm in diameter) containing 32 to 36 percent protein. A typical fingerling feed contains soybean meal, cottonseed meal, animal proteins (such as porcine meat and bone meal, meat and bone/blood meal blend, or poultry by-product meal), corn, wheat middlings, animal fat/fish oil, and vitamin and mineral supplements.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Li, M., &amp; Robinson, E. (2013). Feed Ingredients and Feeds for Channel Catfish. https://www.uapb.edu/sites/www/Uploads/Pond%20Management/Resources/SRAC%201806%20Feed%20Ingredients%20and%20Feeds%20for%20Channel%20Catfish.pdf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015063 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015063">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002271"/>
+        <obo:IAO_0000115>Fattening fish feeds are specialized formulations designed to rapidly increase the weight and size of farmed fish, optimizing them for market sale or further breeding purposes.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Larger fingerlings are fed small floating pellets (1/8 inch diameter) containing 35 percent protein. Advanced fingerlings (5-6 inches) and food fish are generally fed a floating feed of approximately 5/32 - 3/16 inch in diameter containing 28-32 percent protein.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:20:41Z</dc:date>
+        <rdfs:label xml:lang="en">fattening feeds</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015063"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Larger fingerlings are fed small floating pellets (1/8 inch diameter) containing 35 percent protein. Advanced fingerlings (5-6 inches) and food fish are generally fed a floating feed of approximately 5/32 - 3/16 inch in diameter containing 28-32 percent protein.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Nutrition, Feeds, and Feeding. (n.d.). Extension.msstate.edu. Retrieved March 27, 2024, from http://extension.msstate.edu/agriculture/catfish/nutrition-feeds-and-feeding</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015064 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015064">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002271"/>
+        <obo:IAO_0000115 xml:lang="en">consists of a mixture of commercial feeds and/or feed ingredients, each batch of which is manufactured per the specific instructions of the final purchaser, including feed mixed from components supplied by the purchaser.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:25:23Z</dc:date>
+        <rdfs:label xml:lang="en">commercial feed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015064"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">consists of a mixture of commercial feeds and/or feed ingredients, each batch of which is manufactured per the specific instructions of the final purchaser, including feed mixed from components supplied by the purchaser.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Commercial Feed. (n.d.). Agriculture and Markets. Retrieved March 27, 2024, from https://agriculture.ny.gov/food-safety/commercial-feed
+
+‌</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015065 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015065">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002271"/>
+        <obo:IAO_0000115>In-country national feed refers to animal feed that is produced, processed, and sold within the same country. This term emphasizes the local production aspect, distinguishing it from feed that might be imported from other countries.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:28:53Z</dc:date>
+        <rdfs:label xml:lang="en">in-country national feed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015066 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015066">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
+        <obo:IAO_0000115 xml:lang="en">A small-scale feed producer with an extruder is an individual or small business that produces animal feed in limited quantities using an extrusion process. Extrusion is a manufacturing process that involves forcing feed mixtures through a die using high temperature and pressure, creating pellets or kibbles of a consistent shape and size.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">using a combination of two criteria: the physical size of the farm, as expressed by the amount of operated land and the number of livestock heads in production, and the economic size of the farm, as expressed by its revenue (value of production).</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:09:55Z</dc:date>
+        <rdfs:label xml:lang="en">small-scale feed producer with extruder</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015066"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">using a combination of two criteria: the physical size of the farm, as expressed by the amount of operated land and the number of livestock heads in production, and the economic size of the farm, as expressed by its revenue (value of production).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref xml:lang="en">Kvistgaard, Morten &amp; Bogdanov, Natalija &amp; Hartvigsen, Morten &amp; Ludvig, Katalin &amp; Drini, Imami &amp; Ayvazyan, Viktorya &amp; Jijelava, David &amp; Tilekeyev, Kanat. (2020). Empowering smallholders and family farms in Europe and Central Asia – Regional Synthesis Report. https://www.researchgate.net/figure/Small-scale-food-producers_fig1_344337538</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015067 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015067">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
+        <obo:IAO_0000115 xml:lang="en">Feed millers are individuals or companies that operate feed mills where various types of animal feed are produced. These feed millers are responsible for processing raw materials such as grains, protein sources, and minerals into finished feed products for animals like poultry, fish, livestock, and sometimes pets</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">responsible for the production of fish feeds.For animal-based agriculture, formulated feeds to meet all nutrient requirements for optimal growth and performance.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:16:13Z</dc:date>
+        <rdfs:label xml:lang="en">feed millers</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015067"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">responsible for the production of fish feeds.For animal-based agriculture, formulated feeds to meet all nutrient requirements for optimal growth and performance.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Feed Mills - an overview | ScienceDirect Topics. (n.d.). Www.sciencedirect.com. https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/feed-mills</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015068 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015068">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">a way to directly supply your property with potable water. A borehole water supply can provide a reliable alternative to the mains water supply. Underground natural mineral water often flows through permeable chalk and rock. The filtration through the rock layers means that this water can be of the highest quality. A borehole water supply is a deep well that accesses this underground water with a high-efficiency pump.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:40:05Z</dc:date>
+        <rdfs:label xml:lang="en">borehole</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015068"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">a way to directly supply your property with potable water. A borehole water supply can provide a reliable alternative to the mains water supply. Underground natural mineral water often flows through permeable chalk and rock. The filtration through the rock layers means that this water can be of the highest quality. A borehole water supply is a deep well that accesses this underground water with a high-efficiency pump.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Borehole Water Supply. (n.d.). AquaSwitch. https://www.aquaswitch.co.uk/borehole-water-supply/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015069 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015069">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">water, obtained directly from a faucet or tap, that has not been purified, distilled, or otherwise treated.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:42:27Z</dc:date>
+        <oboInOwl:hasExactSynonym>piped</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">tap</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">water, obtained directly from a faucet or tap, that has not been purified, distilled, or otherwise treated.</owl:annotatedTarget>
+        <rdfs:comment>Definition of tap water | Dictionary.com. (n.d.). Www.dictionary.com. https://www.dictionary.com/browse/tap-water
+
+‌</rdfs:comment>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015070 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015070">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">A river is a ribbon-like body of water that flows downhill from the force of gravity. A river can be wide and deep, or shallow enough for a person to wade across. A flowing body of water that is smaller than a river is called a stream, creek, or brook.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:44:54Z</dc:date>
+        <rdfs:label xml:lang="en">river</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015070"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A river is a ribbon-like body of water that flows downhill from the force of gravity. A river can be wide and deep, or shallow enough for a person to wade across. A flowing body of water that is smaller than a river is called a stream, creek, or brook.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>National geographic. (2023, October 19). River | National Geographic Society. Education.nationalgeographic.org. https://education.nationalgeographic.org/resource/river/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015071 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015071">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">a structure built across a river or stream to hold back water. People have used different materials to build dams over the centuries. Ancient dam builders used natural materials such as rocks or clay. Modern-day dam builders often use concrete.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:48:42Z</dc:date>
+        <rdfs:label xml:lang="en">dam</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015071"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">a structure built across a river or stream to hold back water. People have used different materials to build dams over the centuries. Ancient dam builders used natural materials such as rocks or clay. Modern-day dam builders often use concrete.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>National Geographic. (2023, October 19). Dams | National Geographic Society. Education.nationalgeographic.org. https://education.nationalgeographic.org/resource/dams/
+
+‌</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015072 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015072">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">holes in the ground dug by shovel or backhoe. Historically, a dug well was excavated below the groundwater table until incoming water exceeded the digger&apos;s bailing rate. The well was then lined (cased) with stones, brick, tile, or other material to prevent collapse.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:53:42Z</dc:date>
+        <rdfs:label xml:lang="en">dug well</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015072"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">holes in the ground dug by shovel or backhoe. Historically, a dug well was excavated below the groundwater table until incoming water exceeded the digger&apos;s bailing rate. The well was then lined (cased) with stones, brick, tile, or other material to prevent collapse.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Dug Wells. (n.d.). Retrieved September 16, 2021, from https://www.epa.gov/sites/default/files/2015-11/documents/dugwell.pdf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015073 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015073">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">specialized vehicles equipped with large tanks in the rear for transporting water and controlled spray nozzles for distributing it.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:55:34Z</dc:date>
+        <rdfs:label xml:lang="en">tanker truck</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015073"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">specialized vehicles equipped with large tanks in the rear for transporting water and controlled spray nozzles for distributing it.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>What are water trucks used for? What you need to know. (2019, September 19). Custom Truck One Source. https://www.customtruck.com/blog/what-you-need-to-know-about-the-many-uses-of-water-trucks/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015074 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015074">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">a place where water moving underground finds an opening to the land surface and emerges, sometimes as just a trickle, maybe only after a rain, and sometimes in a continuous flow. Spring water can also emerge from heated rock underground, giving rise to hot springs.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:57:56Z</dc:date>
+        <oboInOwl:hasExactSynonym>water springs</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">spring</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015074"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">a place where water moving underground finds an opening to the land surface and emerges, sometimes as just a trickle, maybe only after a rain, and sometimes in a continuous flow. Spring water can also emerge from heated rock underground, giving rise to hot springs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Springs and the Water Cycle | U.S. Geological Survey. (n.d.). Www.usgs.gov. https://www.usgs.gov/special-topics/water-science-school/science/springs-and-water-cycle#overview</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015075 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015075">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">sourced from municipal tap water, which is then run through carbon filters to remove the chlorine (which improves the taste) and sometimes a micron filter as well.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T07:00:40Z</dc:date>
+        <rdfs:label xml:lang="en">filtered water</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015075"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">sourced from municipal tap water, which is then run through carbon filters to remove the chlorine (which improves the taste) and sometimes a micron filter as well.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Drinkmore Water. (2018, March 15). DrinkMore Water. https://www.drinkmorewater.com/types-of-water</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://w3id.org/aqfo/AQFO_00020004 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00020004">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
+        <obo:IAO_0000115 xml:lang="en">A body of water smaller than a lake, sometimes artificially formed, as by damming a stream.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">A pond is a small, still, land-based body of water formed by pooling inside a depression, either naturally or artificially.</obo:IAO_0000115>
-        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marie-angeliquelaporte</dc:creator>
+        <dc:creator>marie-angeliquelaporte</dc:creator>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-29T05:00:25Z</dc:date>
         <rdfs:label xml:lang="en">pond</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00020004"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A body of water smaller than a lake, sometimes artificially formed, as by damming a stream.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ponded. (n.d.). The Free Dictionary. Retrieved March 27, 2024, from https://www.thefreedictionary.com/ponded</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00020004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">A pond is a small, still, land-based body of water formed by pooling inside a depression, either naturally or artificially.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:resource="https://en.wikipedia.org/wiki/Pond"/>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Pond</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1557,14 +2375,14 @@ https://www.agrilinks.org/post/what-value-chain-example-aquaculture</oboInOwl:ha
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002038"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Crude protein content of aboveground biomass.</owl:annotatedTarget>
-        <obo:IAO_0000115 rdf:resource="http://www.cropontology.org/rdf/CO_345:0000016"/>
+        <owl:annotatedTarget>Refers to the true proteins and all other nitrogenous compounds in feeds and feed ingredients</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Revised implementing rules and regulations (revIRR) on the registration of feed establishments and feed froducts. (2007). Philippines. ;https://www.bai.gov.ph/index.php/laws-issuances/administrative-order/category/86-ao-2007</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002038"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Refers to the true proteins and all other nitrogenous compounds in feeds and feed ingredients</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Revised implementing rules and regulations (revIRR) on the registration of feed establishments and feed froducts. (2007). Philippines. ;https://www.bai.gov.ph/index.php/laws-issuances/administrative-order/category/86-ao-2007</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Crude protein content of aboveground biomass.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://www.cropontology.org/rdf/CO_345:0000016"/>
     </owl:Axiom>
     
 
@@ -2600,12 +3418,19 @@ https://www.agrilinks.org/post/what-value-chain-example-aquaculture</oboInOwl:ha
 
     <owl:Class rdf:about="http://w3id.org/aqfo/aqfo_00002190">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
-        <obo:IAO_0000115>An artificial channel that is the main waterway that brings irrigation water from a water source to the area to be irrigated. They can be lined with concrete, brick, stone or a flexible membrane to prevent seepage and erosion.</obo:IAO_0000115>
+        <obo:IAO_0000115>A hydraulic system whose main objective is to convey water from a source (dam and river) to different users. </obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An artificial channel that is the main waterway that brings irrigation water from a water source to the area to be irrigated. They can be lined with concrete, brick, stone or a flexible membrane to prevent seepage and erosion.</obo:IAO_0000115>
         <dc:contributor rdf:resource="http://orcid.org/0000-0002-8461-9745"/>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0002-6363-0945"/>
         <oboInOwl:hasExactSynonym>irrigation canal</oboInOwl:hasExactSynonym>
         <rdfs:label>irrigation channel</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002190"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hydraulic system whose main objective is to convey water from a source (dam and river) to different users. </owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Irrigation Canal - an overview | ScienceDirect Topics. (2018). Sciencedirect.com. https://www.sciencedirect.com/topics/earth-and-planetary-sciences/irrigation-canal</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -4787,5 +5612,5 @@ https://www.genome.gov/about-genomics/fact-sheets/Polymerase-Chain-Reaction-Fact
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
