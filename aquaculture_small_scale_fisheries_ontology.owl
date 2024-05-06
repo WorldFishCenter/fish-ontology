@@ -198,9 +198,9 @@
     
 
 
-    <!-- http://w3id.org/aqfo/AQFO_00000003 -->
+    <!-- http://w3id.org/aqfo/AQFO_00002353 -->
 
-    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00000003">
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00002353">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
         <obo:IAO_0000115>Branchiomycosis is a fungal infection; one of several serious and deadly infections that can affect a fish&apos;s gills. This particular infection is most often due to the environmental conditions of the water in which the fish are kept.</obo:IAO_0000115>
         <dc:creator rdf:resource="http://orcid.org/0000-0001-9796-6159"/>
@@ -209,7 +209,7 @@
         <rdfs:label xml:lang="en">gills rot</rdfs:label>
     </owl:Class>
     <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00000003"/>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00002353"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Branchiomycosis is a fungal infection; one of several serious and deadly infections that can affect a fish&apos;s gills. This particular infection is most often due to the environmental conditions of the water in which the fish are kept.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="https://www.petmd.com/fish/conditions/infectious-parasitic/c_fi_branchiomycosis"/>
@@ -257,9 +257,9 @@
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015032">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002186"/>
         <obo:IAO_0000115 xml:lang="en">Gher is a local term and refers to the modified rice fields by building higher dikes surrounding the field and excavating a canal inside to hold water during dry seasons.</obo:IAO_0000115>
-        <obo:IAO_0000115>This refers to the modification of rice fields to accommodate more than one enterprise eg. prawn-fish-rice combination.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T01:57:21Z</dc:date>
+        <rdfs:comment>This refers to the modification of rice fields to accommodate more than one enterprise eg. prawn-fish-rice combination.</rdfs:comment>
         <rdfs:label xml:lang="en">gher</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -278,9 +278,9 @@
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015033">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00020004"/>
         <obo:IAO_0000115 xml:lang="en">assembled using fabric welding techniques such as hot air, hot bar, and radio-frequency (RF) welding.</obo:IAO_0000115>
-        <obo:IAO_0000115>is a temporary artificial water holding system made with plastic and other materials that can be used to produce fish. It can be collapsed and rebuilt.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:03:55Z</dc:date>
+        <rdfs:comment>is a temporary artificial water holding system made with plastic and other materials that can be used to produce fish. It can be collapsed and rebuilt.</rdfs:comment>
         <rdfs:label xml:lang="en">collapsible pond</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -636,9 +636,9 @@
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015053">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00020004"/>
         <obo:IAO_0000115 xml:lang="en">A tarpaulin pond is a type of artificial pond lined with tarpaulin. Temporary or semi-permanent structure generally used for aquaculture purposes.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">a type of artificial fish pond made from tarpaulin, a large sheet of strong, flexible, water-resistant or waterproof material.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:45:58Z</dc:date>
+        <rdfs:comment xml:lang="en">a type of artificial fish pond made from tarpaulin, a large sheet of strong, flexible, water-resistant or waterproof material.</rdfs:comment>
         <rdfs:label xml:lang="en">tarpaulin pond</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -726,24 +726,24 @@
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015058">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015055"/>
-        <obo:IAO_0000115 xml:lang="en">As soon as the spawn assume the shape of the fish and grow to about 1–2 cm it is known as fry. At this stage they are primarily smaller size zooplankton feeder. It takes about 7 to 10 days for the spawn to grow up to fry stage.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">a life (growth) stage of fishes that are recently hatched.  This is generally after the yolk sac has been absorbed and almost or entirely disappeared.  At this point, the swim bladder is typically functional and fish can actively feed for themselves.  Depending on the species, this stage can last a few months or more until scales develop.  Fry can be thought of as the “infant” stage for fishes.  Because of their small size at this stage (often only a few centimeters), fry are vulnerable to predation in this stage and need shallow, protected habitat to feed and grow.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:00:22Z</dc:date>
         <oboInOwl:hasExactSynonym>fish larvae</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">As soon as the spawn assume the shape of the fish and grow to about 1–2 cm it is known as fry. At this stage they are primarily smaller size zooplankton feeder. It takes about 7 to 10 days for the spawn to grow up to fry stage.</rdfs:comment>
         <rdfs:label xml:lang="en">fry</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015058"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">As soon as the spawn assume the shape of the fish and grow to about 1–2 cm it is known as fry. At this stage they are primarily smaller size zooplankton feeder. It takes about 7 to 10 days for the spawn to grow up to fry stage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Fish seed rearing manual. (n.d.). Www.fao.org. https://www.fao.org/3/AC381E/AC381E02.htm</oboInOwl:hasDbXref>
+        <owl:annotatedTarget xml:lang="en">a life (growth) stage of fishes that are recently hatched.  This is generally after the yolk sac has been absorbed and almost or entirely disappeared.  At this point, the swim bladder is typically functional and fish can actively feed for themselves.  Depending on the species, this stage can last a few months or more until scales develop.  Fry can be thought of as the “infant” stage for fishes.  Because of their small size at this stage (often only a few centimeters), fry are vulnerable to predation in this stage and need shallow, protected habitat to feed and grow.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Fry – Fishionary. (2020, February 21). https://fishionary.fisheries.org/fry/</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015058"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">a life (growth) stage of fishes that are recently hatched.  This is generally after the yolk sac has been absorbed and almost or entirely disappeared.  At this point, the swim bladder is typically functional and fish can actively feed for themselves.  Depending on the species, this stage can last a few months or more until scales develop.  Fry can be thought of as the “infant” stage for fishes.  Because of their small size at this stage (often only a few centimeters), fry are vulnerable to predation in this stage and need shallow, protected habitat to feed and grow.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Fry – Fishionary. (2020, February 21). https://fishionary.fisheries.org/fry/</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+        <owl:annotatedTarget xml:lang="en">As soon as the spawn assume the shape of the fish and grow to about 1–2 cm it is known as fry. At this stage they are primarily smaller size zooplankton feeder. It takes about 7 to 10 days for the spawn to grow up to fry stage.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Fish seed rearing manual. (n.d.). Www.fao.org. https://www.fao.org/3/AC381E/AC381E02.htm</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -789,10 +789,10 @@
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015061">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002271"/>
         <obo:IAO_0000115 xml:lang="en">refer to &apos;live feed&apos; is often used as natural diets for fish larvae in aquaculture. Live feed contains various nutrients such as essential proteins, lipids, carbohydrates, vitamins, minerals, amino acids, and commonly known as living capsules of nutrition.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="en">specialized forms of fish feed designed for the earliest life stages of fish, specifically the larval stage immediately following hatching and the fry stage as they begin to grow.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:11:55Z</dc:date>
         <oboInOwl:hasExactSynonym>larval feeds</oboInOwl:hasExactSynonym>
+        <rdfs:comment xml:lang="en">specialized forms of fish feed designed for the earliest life stages of fish, specifically the larval stage immediately following hatching and the fry stage as they begin to grow.</rdfs:comment>
         <rdfs:label xml:lang="en">fry feeds</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -809,10 +809,10 @@
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015062">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002271"/>
         <obo:IAO_0000115 xml:lang="en">small floating pellets (3 mm in diameter) containing 32 to 36 percent protein. A typical fingerling feed contains soybean meal, cottonseed meal, animal proteins (such as porcine meat and bone meal, meat and bone/blood meal blend, or poultry by-product meal), corn, wheat middlings, animal fat/fish oil, and vitamin and mineral supplements.</obo:IAO_0000115>
-        <obo:IAO_0000115>specialized types of aquaculture feeds formulated to meet the nutritional needs of young fish, specifically fingerlings (young fish that have developed to about the size of a finger) and juveniles (fish that are in the stage between fingerlings and adults). These feeds are designed to promote healthy growth and development during the early life stages of fish.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:16:18Z</dc:date>
         <oboInOwl:hasExactSynonym>juvenile feeds</oboInOwl:hasExactSynonym>
+        <rdfs:comment>specialized types of aquaculture feeds formulated to meet the nutritional needs of young fish, specifically fingerlings (young fish that have developed to about the size of a finger) and juveniles (fish that are in the stage between fingerlings and adults). These feeds are designed to promote healthy growth and development during the early life stages of fish.</rdfs:comment>
         <rdfs:label xml:lang="en">fingerlings feeds</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -828,10 +828,10 @@
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015063">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002271"/>
-        <obo:IAO_0000115>Fattening fish feeds are specialized formulations designed to rapidly increase the weight and size of farmed fish, optimizing them for market sale or further breeding purposes.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">Larger fingerlings are fed small floating pellets (1/8 inch diameter) containing 35 percent protein. Advanced fingerlings (5-6 inches) and food fish are generally fed a floating feed of approximately 5/32 - 3/16 inch in diameter containing 28-32 percent protein.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:20:41Z</dc:date>
+        <rdfs:comment>Fattening fish feeds are specialized formulations designed to rapidly increase the weight and size of farmed fish, optimizing them for market sale or further breeding purposes.</rdfs:comment>
         <rdfs:label xml:lang="en">fattening feeds</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -879,10 +879,10 @@
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015066">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
-        <obo:IAO_0000115 xml:lang="en">A small-scale feed producer with an extruder is an individual or small business that produces animal feed in limited quantities using an extrusion process. Extrusion is a manufacturing process that involves forcing feed mixtures through a die using high temperature and pressure, creating pellets or kibbles of a consistent shape and size.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">using a combination of two criteria: the physical size of the farm, as expressed by the amount of operated land and the number of livestock heads in production, and the economic size of the farm, as expressed by its revenue (value of production).</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:09:55Z</dc:date>
+        <rdfs:comment xml:lang="en">A small-scale feed producer with an extruder is an individual or small business that produces animal feed in limited quantities using an extrusion process. Extrusion is a manufacturing process that involves forcing feed mixtures through a die using high temperature and pressure, creating pellets or kibbles of a consistent shape and size.</rdfs:comment>
         <rdfs:label xml:lang="en">small-scale feed producer with extruder</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -898,10 +898,10 @@
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015067">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
-        <obo:IAO_0000115 xml:lang="en">Feed millers are individuals or companies that operate feed mills where various types of animal feed are produced. These feed millers are responsible for processing raw materials such as grains, protein sources, and minerals into finished feed products for animals like poultry, fish, livestock, and sometimes pets</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">responsible for the production of fish feeds.For animal-based agriculture, formulated feeds to meet all nutrient requirements for optimal growth and performance.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T06:16:13Z</dc:date>
+        <rdfs:comment xml:lang="en">Feed millers are individuals or companies that operate feed mills where various types of animal feed are produced. These feed millers are responsible for processing raw materials such as grains, protein sources, and minerals into finished feed products for animals like poultry, fish, livestock, and sometimes pets</rdfs:comment>
         <rdfs:label xml:lang="en">feed millers</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5612,5 +5612,5 @@ https://www.genome.gov/about-genomics/fact-sheets/Polymerase-Chain-Reaction-Fact
 
 
 
-<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
 
