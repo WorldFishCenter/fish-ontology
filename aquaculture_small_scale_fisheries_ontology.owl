@@ -370,7 +370,7 @@
     <!-- http://w3id.org/aqfo/AQFO_00015039 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015039">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002239"/>
         <obo:IAO_0000115 xml:lang="en">a form of aquaculture in which fish are raised in enclosures to be sold as food. It is the fastest growing area of animal food production.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:36:32Z</dc:date>
@@ -389,7 +389,7 @@
     <!-- http://w3id.org/aqfo/AQFO_00015040 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015040">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015085"/>
         <obo:IAO_0000115 xml:lang="en">A fisher returning with more fish than is needed to meet personal needs will tend to exchange surplus fish for other goods or services. </obo:IAO_0000115>
         <obo:IAO_0000115>Fish trading may also refer to fishers/non fishers exchanging fish for money, goods or services. It may be midllemen, fishers, fish farmers, retailers or wholesalers.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
@@ -408,7 +408,7 @@
     <!-- http://w3id.org/aqfo/AQFO_00015041 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015041">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015085"/>
         <obo:IAO_0000115 xml:lang="en">fish vendors are defined as those who are engaged in selling fish. Fish vendors are those who sell fish including fish that is graded, cleaned, frozen,  fried,  sun-dried,  and  packed.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T02:41:50Z</dc:date>
@@ -672,17 +672,10 @@
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015055">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015002"/>
-        <obo:IAO_0000115 xml:lang="en">the names or terms comprising a set or system.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T03:56:09Z</dc:date>
-        <rdfs:label xml:lang="en">nomenclature</rdfs:label>
+        <rdfs:label xml:lang="en">fish hatchery stage</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015055"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">the names or terms comprising a set or system.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Definition of nomenclature | Dictionary.com. (n.d.). Www.dictionary.com. https://www.dictionary.com/browse/nomenclature</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -726,19 +719,12 @@
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015058">
         <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015055"/>
-        <obo:IAO_0000115 xml:lang="en">As soon as the spawn assume the shape of the fish and grow to about 1–2 cm it is known as fry. At this stage they are primarily smaller size zooplankton feeder. It takes about 7 to 10 days for the spawn to grow up to fry stage.</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">a life (growth) stage of fishes that are recently hatched.  This is generally after the yolk sac has been absorbed and almost or entirely disappeared.  At this point, the swim bladder is typically functional and fish can actively feed for themselves.  Depending on the species, this stage can last a few months or more until scales develop.  Fry can be thought of as the “infant” stage for fishes.  Because of their small size at this stage (often only a few centimeters), fry are vulnerable to predation in this stage and need shallow, protected habitat to feed and grow.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-27T05:00:22Z</dc:date>
         <oboInOwl:hasExactSynonym>fish larvae</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">fry</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015058"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget xml:lang="en">As soon as the spawn assume the shape of the fish and grow to about 1–2 cm it is known as fry. At this stage they are primarily smaller size zooplankton feeder. It takes about 7 to 10 days for the spawn to grow up to fry stage.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Fish seed rearing manual. (n.d.). Www.fao.org. https://www.fao.org/3/AC381E/AC381E02.htm</oboInOwl:hasDbXref>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015058"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -897,7 +883,7 @@
     <!-- http://w3id.org/aqfo/AQFO_00015067 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015067">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015085"/>
         <obo:IAO_0000115 xml:lang="en">Feed millers are individuals or companies that operate feed mills where various types of animal feed are produced. These feed millers are responsible for processing raw materials such as grains, protein sources, and minerals into finished feed products for animals like poultry, fish, livestock, and sometimes pets</obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">responsible for the production of fish feeds.For animal-based agriculture, formulated feeds to meet all nutrient requirements for optimal growth and performance.</obo:IAO_0000115>
         <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
@@ -1059,6 +1045,290 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget xml:lang="en">sourced from municipal tap water, which is then run through carbon filters to remove the chlorine (which improves the taste) and sometimes a micron filter as well.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>Drinkmore Water. (2018, March 15). DrinkMore Water. https://www.drinkmorewater.com/types-of-water</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015076 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015076">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002271"/>
+        <obo:IAO_0000115 xml:lang="en">parts of food items that are typically discarded rather than eaten: peels, rinds, cores, eggshells, seeds.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-17T02:32:14Z</dc:date>
+        <rdfs:label xml:lang="en">scraps feed</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015076"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">parts of food items that are typically discarded rather than eaten: peels, rinds, cores, eggshells, seeds.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Food Scraps | Department of Environmental Conservation. (2024). Vermont.gov. https://dec.vermont.gov/waste-management/solid/materials-mgmt/organic-materials#
+
+
+‌</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015077 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015077">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002251"/>
+        <obo:IAO_0000115 xml:lang="en">Complete draining of the pond water,  drying clearing of pond bottom sediments after every harvest to eliminate undesirable organisms in the pond prior to restarting the culture period, in order to oxidize harmful chemical substances (especially sulfides) and facilitate mineralization of organic matter.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-17T02:52:23Z</dc:date>
+        <rdfs:label xml:lang="en">Pond drying</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015077"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Complete draining of the pond water,  drying clearing of pond bottom sediments after every harvest to eliminate undesirable organisms in the pond prior to restarting the culture period, in order to oxidize harmful chemical substances (especially sulfides) and facilitate mineralization of organic matter.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>SHRIMP CULTURE: POND DESIGN, OPERATION AND MANAGEMENT. (n.d.). Www.fao.org. https://www.fao.org/4/ac210e/AC210E06.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015078 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015078">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002251"/>
+        <obo:IAO_0000115 xml:lang="en">Removal of solid aquaculture waste from the pond bottom made up of excessive feed and degraded organic matter containing nitrogenous compounds, phosphorus and other dissolved organic carbon that may be harmful to the pond environment in high concentrations.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-17T02:55:48Z</dc:date>
+        <rdfs:label xml:lang="en">Pond sludge removal</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015078"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Removal of solid aquaculture waste from the pond bottom made up of excessive feed and degraded organic matter containing nitrogenous compounds, phosphorus and other dissolved organic carbon that may be harmful to the pond environment in high concentrations.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Jasmin, M. Y., Syukri, F., Kamarudin, M. S., &amp; Karim, M. (2020). Potential of bioremediation in treating aquaculture sludge: Review article. Aquaculture, 519, 734905. https://doi.org/10.1016/j.aquaculture.2019.734905</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015079 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015079">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
+        <obo:IAO_0000115 xml:lang="en">Swollen eyes indicate the presence of excess fluid that can&apos;t be eliminated from the body. The fluid causes pressure behind the eyeball</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-17T03:07:16Z</dc:date>
+        <rdfs:label xml:lang="en">Eye exophthalmia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015079"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Swollen eyes indicate the presence of excess fluid that can&apos;t be eliminated from the body. The fluid causes pressure behind the eyeball</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Diagnose and Treat Dropsy in Your Aquarium Fish. (n.d.). The Spruce Pets. https://www.thesprucepets.com/dropsy-in-aquarium-fish-1381806</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015080 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015080">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
+        <obo:IAO_0000115>Swollen eyes indicate the presence of excess fluid that can&apos;t be eliminated from the body. The fluid causes pressure behind the eyeball.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-17T03:11:13Z</dc:date>
+        <rdfs:label xml:lang="en">Eye endophthalmia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015080"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Swollen eyes indicate the presence of excess fluid that can&apos;t be eliminated from the body. The fluid causes pressure behind the eyeball.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Endophthalmitis. (n.d.). All about Vision. https://www.allaboutvision.com/conditions/infections-allergies/endophthalmitis/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015081 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015081">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
+        <obo:IAO_0000115 xml:lang="en">the opacities form a mosaic pattern of small dot-like grey-white-yellow opacities.  The fish-eye designation comes from the corneal clouding resembling boiled fish eyes.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-17T03:14:55Z</dc:date>
+        <rdfs:label xml:lang="en">Eye opacification</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015081"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">the opacities form a mosaic pattern of small dot-like grey-white-yellow opacities.  The fish-eye designation comes from the corneal clouding resembling boiled fish eyes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>fish eye disease | Hereditary Ocular Diseases. (2024). Arizona.edu. https://disorders.eyes.arizona.edu/category/alternate-names/fish-eye-disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015082 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015082">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
+        <obo:IAO_0000115 xml:lang="en">a change in color or an opening in the skin or fins of a fish. The lesion may be on the skin surface only, or it may go deeper into the muscle or organs of the fish.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-17T03:19:44Z</dc:date>
+        <rdfs:label xml:lang="en">Skin erosions with haemorrhagic lesions</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015082"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">a change in color or an opening in the skin or fins of a fish. The lesion may be on the skin surface only, or it may go deeper into the muscle or organs of the fish.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>United States Environmental Office of Water EPA xxx-xx-xxxx Protection Agency (mail code) **DRAFT**. (1999). https://www.whoi.edu/science/B/redtide/pfiesteria/documents/lesionfactsheet.pdf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015083 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015083">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
+        <obo:IAO_0000115 xml:lang="en">white or gray fading of the color in patches</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-17T03:44:15Z</dc:date>
+        <rdfs:label xml:lang="en">Skin discoloration</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015083"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">white or gray fading of the color in patches</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Common Saltwater Fish Diseases And How To Treat Them. (n.d.). Reefco Aquariums. https://reefcoaquariums.com/blogs/news/common-saltwater-fish-diseases-and-how-to-treat-them</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015084 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015084">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
+        <obo:IAO_0000115 xml:lang="en">Scale protrusion or detachment essentially a bacterial infection of the scales and/or body.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-17T03:46:30Z</dc:date>
+        <rdfs:label xml:lang="en">Scale protrusion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015084"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Scale protrusion or detachment essentially a bacterial infection of the scales and/or body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Lipton, A. (n.d.). Diseases of Ornamental Fishes and their Control. Retrieved August 2, 2024, from https://eprints.cmfri.org.in/8416/1/Lipton.pdf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015085 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015085">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002211"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-17T04:04:07Z</dc:date>
+        <rdfs:label xml:lang="en">aquaculture actors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015086 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015086">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-18T01:29:21Z</dc:date>
+        <rdfs:label xml:lang="en">Gill paleness</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015086"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget xml:lang="en">Gill paleness</owl:annotatedTarget>
+        <obo:IAO_0000115 xml:lang="en">swelling, redness within the gill tissue, and deformed gills. The gills may have patchy growth of bacteria on them and a blotchy appearance.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>Flavobacteria Infection in Fish. (n.d.). Www.petmd.com. https://www.petmd.com/fish/infectious-parasitic/c_fi_bacterial_gill_disease</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015087 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015087">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
+        <obo:IAO_0000115 xml:lang="en">a symptom of disease or the actual disease in fish. This is a disease which is most often observed in aquaria and aquaculture, but can also occur in natural populations.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-18T01:33:10Z</dc:date>
+        <rdfs:label xml:lang="en">fin rot and tail rot</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015087"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">a symptom of disease or the actual disease in fish. This is a disease which is most often observed in aquaria and aquaculture, but can also occur in natural populations.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Wikipedia Contributors. (2024, August 27). Fin rot. Wikipedia; Wikimedia Foundation.</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015088 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015088">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002330"/>
+        <obo:IAO_0000115 xml:lang="en">Red vent syndrome is an inflammation of the fish’s anal orifice (or anal vent). The inflammation of the anus region is associated with the presence, and especially an unusually high concentration, of the parasite Anisakis simplex in the tissues surrounding the anus.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-18T01:37:55Z</dc:date>
+        <rdfs:label xml:lang="en">Swollen anus</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015088"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Red vent syndrome is an inflammation of the fish’s anal orifice (or anal vent). The inflammation of the anus region is associated with the presence, and especially an unusually high concentration, of the parasite Anisakis simplex in the tissues surrounding the anus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Red vent syndrome. (n.d.). Gouvernement Du Québec. https://www.quebec.ca/en/agriculture-environment-and-natural-resources/animal-health/animal-diseases/list-animal-diseases/red-vent-syndrome</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015089 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015089">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002251"/>
+        <obo:IAO_0000115 xml:lang="en">A bath for disinfecting feet, placed at the entrance of the farm, food processing facility or other physically separated places.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-18T01:56:01Z</dc:date>
+        <rdfs:label xml:lang="en">Footbaths</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015089"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A bath for disinfecting feet, placed at the entrance of the farm, food processing facility or other physically separated places.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Uganda Ministry of Agriculture, Animal Industry and Fisheries (MAAIF); Guidelines for Infection Prevention and Appropriate Antimicrobial Use in Animal Sector: Fish Farming; First Edition 2020  https://www.agriculture.go.ug/wp-content/uploads/2021/10/GUIDELINES-FOR-IPC-APPROPRIATE-ANTIBIOTIC-USE-ANIMAL-SECTOR-FISH-FARMING.pdf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015090 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015090">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002331"/>
+        <obo:IAO_0000115 xml:lang="en">The circular motion around a common center is observed in large groups of animals at different evolution stages ranging from insects and plant-animal worms to fish.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-18T03:15:48Z</dc:date>
+        <rdfs:label xml:lang="en">Swirling</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The circular motion around a common center is observed in large groups of animals at different evolution stages ranging from insects and plant-animal worms to fish.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Nuzhin, E.E., Panov, M.E. &amp; Brilliantov, N.V. Why animals swirl and how they group. Sci Rep 11, 20843 (2021). https://doi.org/10.1038/s41598-021-99982-7</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015091 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015091">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002331"/>
+        <obo:IAO_0000115 xml:lang="en">A state in which the fish show sluggish swimming behavior and do not respond as usual to external stimuli.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-18T03:18:25Z</dc:date>
+        <rdfs:label xml:lang="en">Lethargy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015091"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A state in which the fish show sluggish swimming behavior and do not respond as usual to external stimuli.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FishBase Glossary. (2024). Fishbase.se. https://www.fishbase.se/glossary/Glossary.php?q=lethargy</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2375,14 +2645,14 @@ https://www.agrilinks.org/post/what-value-chain-example-aquaculture</oboInOwl:ha
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002038"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Refers to the true proteins and all other nitrogenous compounds in feeds and feed ingredients</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>Revised implementing rules and regulations (revIRR) on the registration of feed establishments and feed froducts. (2007). Philippines. ;https://www.bai.gov.ph/index.php/laws-issuances/administrative-order/category/86-ao-2007</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>Crude protein content of aboveground biomass.</owl:annotatedTarget>
+        <obo:IAO_0000115 rdf:resource="http://www.cropontology.org/rdf/CO_345:0000016"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/aqfo_00002038"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Crude protein content of aboveground biomass.</owl:annotatedTarget>
-        <obo:IAO_0000115 rdf:resource="http://www.cropontology.org/rdf/CO_345:0000016"/>
+        <owl:annotatedTarget>Refers to the true proteins and all other nitrogenous compounds in feeds and feed ingredients</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>Revised implementing rules and regulations (revIRR) on the registration of feed establishments and feed froducts. (2007). Philippines. ;https://www.bai.gov.ph/index.php/laws-issuances/administrative-order/category/86-ao-2007</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
