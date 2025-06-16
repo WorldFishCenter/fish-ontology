@@ -1334,6 +1334,134 @@
     
 
 
+    <!-- http://w3id.org/aqfo/AQFO_00015092 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015092">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002000"/>
+        <obo:IAO_0000115 xml:lang="en">the collection, measurement and analysis of fishing activity, including: catches, species composition, fishing effort, discards, area of operation.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-16T06:13:20Z</dc:date>
+        <rdfs:label xml:lang="en">fisheries monitoring</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015092"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">the collection, measurement and analysis of fishing activity, including: catches, species composition, fishing effort, discards, area of operation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref xml:lang="en">Williams, M., &amp; Corral, V. (2024). Proceedings of the International Conference on integrated Fisheries Monitoring. Fao.org. https://www.fao.org/4/x3900e/x3900e03.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015093 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015093">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/AQFO_00015003"/>
+        <obo:IAO_0000115 xml:lang="en">Beta diversity is defined as the difference between diversities of two or more sites. It is used to measure change in biodiversity between one site or habitat and another.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-16T06:25:25Z</dc:date>
+        <rdfs:label xml:lang="en">beta diversity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015093"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Beta diversity is defined as the difference between diversities of two or more sites. It is used to measure change in biodiversity between one site or habitat and another.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref xml:lang="en">Massol, F., &amp; Petit, S. (2013). Interaction Networks in Agricultural Landscape Mosaics. Ecological Networks in an Agricultural World, 291–338. https://doi.org/10.1016/b978-0-12-420002-9.00005-6</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015094 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015094">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002234"/>
+        <obo:IAO_0000115 xml:lang="en">A  captain is a licensed mariner in ultimate command of the vessel. The captain is responsible for its safe and efficient operation, including cargo operations,  navigation,  crew management, and ensuring that the ship complies with local and international laws.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-16T06:30:15Z</dc:date>
+        <rdfs:label xml:lang="en">boat captain</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015094"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">A  captain is a licensed mariner in ultimate command of the vessel. The captain is responsible for its safe and efficient operation, including cargo operations,  navigation,  crew management, and ensuring that the ship complies with local and international laws.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref xml:lang="en">Papandreou, Andreas. (2022). Organizational Structure &amp; Leadership of Merchant Vessel by Captain. 10.13140/RG.2.2.27927.79526.</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015095 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015095">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002088"/>
+        <obo:IAO_0000115 xml:lang="en">fish, any of approximately 34,000 species of vertebrate animals (phylum Chordata) found in the fresh and salt waters of the world. Living species range from the primitive jawless lampreys and hagfishes through the cartilaginous sharks, skates, and rays to the abundant and diverse bony fishes. Most fish species are cold-blooded; however, one species, the opah (Lampris guttatus), is warm-blooded.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-16T06:38:20Z</dc:date>
+        <rdfs:label xml:lang="en">fish species</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015095"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">fish, any of approximately 34,000 species of vertebrate animals (phylum Chordata) found in the fresh and salt waters of the world. Living species range from the primitive jawless lampreys and hagfishes through the cartilaginous sharks, skates, and rays to the abundant and diverse bony fishes. Most fish species are cold-blooded; however, one species, the opah (Lampris guttatus), is warm-blooded.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref xml:lang="en">Weitzman, S.H., Parenti, L.R. (2025, May 19). fish. Encyclopedia Britannica. https://www.britannica.com/animal/fish</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015096 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015096">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002014"/>
+        <obo:IAO_0000115 xml:lang="en">Pelagic Data Systems (PDS) is a vessel tracking system(hardware) and data-as-a-service solution for monitoring fishing vessels. This yields high-resolution data on vessel movements.  The tracking dataset contains high-resolution geolocation and movement information, enabling the calculation of fishing effort per boat and extrapolation across municipal and national fleets.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-16T06:41:20Z</dc:date>
+        <rdfs:label xml:lang="en">PDS tracks</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015096"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Pelagic Data Systems (PDS) is a vessel tracking system(hardware) and data-as-a-service solution for monitoring fishing vessels. This yields high-resolution data on vessel movements.  The tracking dataset contains high-resolution geolocation and movement information, enabling the calculation of fishing effort per boat and extrapolation across municipal and national fleets.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref xml:lang="en">Longobardi, Lorenzo &amp; Altarturi, Hamza &amp; Cagua, Edgar &amp; Sozinho, Villiam &amp; Tilley, Alexander. (2024). Peskas: Automated analytics for small-scale, data-deficient fisheries. 10.21203/rs.3.rs-4386336/v1.</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015097 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015097">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002207"/>
+        <obo:IAO_0000115 xml:lang="en">Insulated fish boxes are made from polyurethane foam as sheets or by “in situ injection” for insulation. The lids for the boxes are tight-fitting and also insulated. Box with drain hole at the bottom used for keeping fish for meltwater to flow out. The boxes are available in varying capacities.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-16T06:46:57Z</dc:date>
+        <rdfs:label xml:lang="en">fish box</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015097"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">Insulated fish boxes are made from polyurethane foam as sheets or by “in situ injection” for insulation. The lids for the boxes are tight-fitting and also insulated. Box with drain hole at the bottom used for keeping fish for meltwater to flow out. The boxes are available in varying capacities.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref xml:lang="en">Overseas Development Administration. (n.d.). ICE BOXES. https://www.fao.org/fishery/docs/CDrom/bobp/cd1/Bobp/Publns/ODA/0007.pdf</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/aqfo/AQFO_00015098 -->
+
+    <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00015098">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/aqfo/aqfo_00002233"/>
+        <obo:IAO_0000115 xml:lang="en">The measure of happiness is based on qualitative responses, such as feeling “quite”, “fairly”, or “very” happy with one&apos;s life. Scale normally varies from
+survey to survey.</obo:IAO_0000115>
+        <dc:creator rdf:resource="https://orcid.org/0009-0001-6183-0388"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-16T06:57:45Z</dc:date>
+        <rdfs:label xml:lang="en">fishermen happiness</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://w3id.org/aqfo/AQFO_00015098"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">The measure of happiness is based on qualitative responses, such as feeling “quite”, “fairly”, or “very” happy with one&apos;s life. Scale normally varies from
+survey to survey.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref xml:lang="en">Anna, Z., Yusuf, A. A., Alisjahbana, A. S., Ghina, A. A., &amp; Rahma, N. (2019). Are fishermen happier? Evidence from a large-scale subjective well-being survey in a lower-middle-income country. Marine Policy, 106, 103559. https://doi.org/10.1016/j.marpol.2019.103559</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://w3id.org/aqfo/AQFO_00020004 -->
 
     <owl:Class rdf:about="http://w3id.org/aqfo/AQFO_00020004">
